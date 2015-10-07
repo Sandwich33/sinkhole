@@ -1,0 +1,1487 @@
+﻿[2015.10.06-16.56.14:677][  0]Log file open, 10/07/15 01:56:14
+[2015.10.06-16.56.14:677][  0]LogInit:Display: Running engine for game: sinkhole
+[2015.10.06-16.56.14:677][  0]LogInit:Display: RandInit(1547213522) SRandInit(1547213522).
+[2015.10.06-16.56.14:677][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.06-16.56.14:677][  0]LogStats: Stats thread started at 0.100192
+[2015.10.06-16.56.14:677][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.06-16.56.14:677][  0]LogInit: API Version: 2672455
+[2015.10.06-16.56.14:677][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.06-16.56.14:677][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.06-16.56.14:677][  0]LogInit: Build Configuration: Development
+[2015.10.06-16.56.14:677][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.06-16.56.14:677][  0]LogInit: Command line: 
+[2015.10.06-16.56.14:677][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.06-16.56.14:677][  0]LogInit: Rocket: 1
+[2015.10.06-16.56.14:690][  0]LogInit: Using libcurl 7.41.0
+[2015.10.06-16.56.14:690][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.06-16.56.14:690][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.06-16.56.14:690][  0]LogInit:  - other features:
+[2015.10.06-16.56.14:690][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.06-16.56.14:690][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.06-16.56.14:690][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.06-16.56.14:690][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.06-16.56.14:690][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.06-16.56.14:690][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.06-16.56.14:690][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.06-16.56.14:690][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.06-16.56.14:690][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.06-16.56.14:690][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.06-16.56.14:701][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.06-16.56.14:713][  0]LogInit: Object subsystem initialized
+[2015.10.06-16.56.14:715][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.06-16.56.14:715][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.06-16.56.14:736][  0]LogInit: Computer: EDRAGON33-PC
+[2015.10.06-16.56.14:736][  0]LogInit: User: edragon33
+[2015.10.06-16.56.14:736][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.06-16.56.14:736][  0]LogInit: High frequency timer resolution =2.734568 MHz
+[2015.10.06-16.56.14:736][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.10.06-16.56.14:736][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.06-16.56.14:736][  0]LogMemory: Process Physical Memory: 54.32 MB used, 54.32 MB peak
+[2015.10.06-16.56.14:736][  0]LogMemory: Process Virtual Memory: 57.36 MB used, 57.36 MB peak
+[2015.10.06-16.56.14:736][  0]LogMemory: Physical Memory: 4719.14 MB used, 12287.11 MB total
+[2015.10.06-16.56.14:736][  0]LogMemory: Virtual Memory: 366.88 MB used, 134217728.00 MB total
+[2015.10.06-16.56.14:778][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2015.10.06-16.56.14:857][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2015.10.06-16.56.14:857][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2015.10.06-16.56.14:857][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2015.10.06-16.56.16:217][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTS 250 (Feature Level 10_0)
+[2015.10.06-16.56.16:217][  0]LogD3D11RHI: Adapter has 480MB of dedicated video memory, 0MB of dedicated system memory, and 3583MB of shared system memory, 1 output[s]
+[2015.10.06-16.56.16:219][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.06-16.56.16:219][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6143MB of shared system memory, 0 output[s]
+[2015.10.06-16.56.16:219][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.06-16.56.16:225][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.06-16.56.16:225][  0]LogRHI: Texture pool is 336 MB (70% of 480 MB)
+[2015.10.06-16.56.17:240][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.06-16.56.17:273][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/GitHub/sinkhole/unreal/sinkhole/Intermediate/Shaders/WorkingDirectory/920/).
+[2015.10.06-16.56.17:273][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/GitHub/sinkhole/unreal/sinkhole/Intermediate/Shaders/tmp/BECF220C4D95F0ABD3763086D1291CE3/'.
+[2015.10.06-16.56.17:273][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.06-16.56.19:123][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.06-16.56.19:133][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.06-16.56.19:142][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.06-16.56.19:151][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.06-16.56.19:160][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.06-16.56.19:167][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.06-16.56.19:173][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.06-16.56.19:179][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.06-16.56.19:185][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.06-16.56.19:192][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.06-16.56.19:198][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.06-16.56.19:204][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.06-16.56.19:205][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.06-16.56.19:226][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.06-16.56.19:231][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.06-16.56.19:236][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.06-16.56.19:242][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.06-16.56.19:242][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.06-16.56.19:369][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.06-16.56.19:451][  0]LogDerivedDataCache: Loaded boot cache 0.08s 36MB C:/Users/edragon33/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.06-16.56.19:451][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/edragon33/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.06-16.56.19:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/sinkhole/unreal/sinkhole/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.06-16.56.19:451][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.06-16.56.19:451][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/sinkhole/unreal/sinkhole/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.06-16.56.19:451][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.06-16.56.19:641][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.06-16.56.19:653][  0]LogDerivedDataCache: Using Local data cache path C:/Users/edragon33/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.06-16.56.19:933][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.06-16.56.19:938][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.06-16.56.20:226][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.06-16.56.20:226][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.06-16.56.20:657][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.06-16.56.21:814][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.06-16.56.22:012][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.10.06-16.56.22:245][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.10.06-16.56.22:256][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.10.06-16.56.22:271][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.10.06-16.56.22:287][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.10.06-16.56.22:500][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.06-16.56.22:628][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.06-16.56.22:628][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.06-16.56.22:719][  0]LogEngine: Initializing Engine...
+[2015.10.06-16.56.22:723][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.06-16.56.22:724][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.06-16.56.22:910][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.06-16.56.22:920][  0]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-16.56.22:928][  0]LogInit: FAudioDevice initialized.
+[2015.10.06-16.56.22:961][  0]LogDerivedDataCache: Saved boot cache 0.03s 36MB C:/Users/edragon33/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.06-16.56.22:974][  0]LogInit: Texture streaming: Enabled
+[2015.10.06-16.56.22:983][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.06-16.56.22:983][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.06-16.56.22:984][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId be2829a745f3de2304577993c2c8604b|ec8005ed97f24ee4b5ae2bc5abfe5161|9c3685a0-8a37-4e96-81c7-1efdeb41719a
+[2015.10.06-16.56.22:984][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.06-16.56.23:001][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2015.10.06-16.56.23:142][  0]LogInit: Transaction tracking system initialized
+[2015.10.06-16.56.23:190][  0]BlueprintLog: New page: 에디터 로드
+[2015.10.06-16.56.23:324][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2015.10.06-16.56.23:454][  0]LogUObjectGlobals:Warning: 'Class /Engine/Tutorial/Mobile/SettingUpAndroidTutorial.SettingUpAndroidTutorial_C' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-16.56.23:474][  0]LogConsoleResponse:Display: 
+[2015.10.06-16.56.23:701][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/sinkhole/unreal/sinkhole/Content/' took 0.01s
+[2015.10.06-16.56.23:701][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.06-16.56.23:804][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.10.06-16.56.23:804][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.10.06-16.56.23:805][  0]LightingResults: New page: 라이팅 빌드
+[2015.10.06-16.56.23:810][  0]MapCheck: New page: 맵 체크
+[2015.10.06-16.56.23:810][  0]LightingResults: New page: 라이팅 빌드
+[2015.10.06-16.56.23:826][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E506451C0
+[2015.10.06-16.56.24:994][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.10.06-16.56.25:001][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.06-16.56.25:008][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.06-16.56.25:081][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 72.687ms.
+[2015.10.06-16.56.25:081][  0]LogFileHelpers: Loading map 'Template_Default' took 1.277
+[2015.10.06-16.56.25:784][  0]LogCollectionManager: Loaded 0 collections in 0.003262 seconds
+[2015.10.06-16.56.25:921][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/Collections/' took 0.01s
+[2015.10.06-16.56.25:921][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/sinkhole/unreal/sinkhole/Content/Developers/edragon33/Collections/' took 0.01s
+[2015.10.06-16.56.25:921][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/sinkhole/unreal/sinkhole/Content/Collections/' took 0.01s
+[2015.10.06-16.56.25:921][  0]LogContentBrowser: Native class hierarchy populated in 0.0322 seconds. Added 1867 classes and 333 folders.
+[2015.10.06-16.56.25:999][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.06-16.56.26:130][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.06-16.56.26:365][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.06-16.56.26:451][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.10.06-16.56.27:054][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.06-16.56.27:295][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-16.56.27:339][  0]LogLoad: Full Startup: 13.54 seconds (BP compile: 0.07 seconds)
+[2015.10.06-16.56.28:236][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.10.06-16.56.28:782][  0]LogRenderer: Reallocating scene render targets to support 1168x600 (Frame:2).
+[2015.10.06-16.56.31:029][  4]LogAssetRegistry: Asset discovery search completed in 9.0290 seconds
+[2015.10.06-16.56.31:030][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.10.06-16.56.31:030][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2015.10.06-16.56.36:031][493]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.10.06-16.56.36:197][493]LogStaticMesh: place 스태틱 메시 빌드중...
+[2015.10.06-16.56.36:272][493]LogStaticMesh: Built static mesh [0.086436.2s] /Game/3d_obj/place.place
+[2015.10.06-16.56.36:388][493]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1116) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2015.10.06-16.56.36:388][493]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.10.06-16.56.36:388][493]LogPhysics:Warning: Failed to cook convex: /Game/3d_obj/place.place 0 (FlipX:0). The remaining elements will not get cooked.
+[2015.10.06-16.56.36:390][493]LogStaticMesh: mytent2 스태틱 메시 빌드중...
+[2015.10.06-16.56.36:882][493]LogStaticMesh: Built static mesh [0.493048.2s] /Game/3d_obj/Main/Tent/mytent2.mytent2
+[2015.10.06-16.56.37:170][493]LogTexture:Display: 텍스처 빌드중: tent2 (AutoDXT)
+[2015.10.06-16.56.38:309][493]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2015.10.06-16.56.38:475][493]LogTexture:Display: 텍스처 빌드중: SandPebbles0058_15_S (AutoDXT)
+[2015.10.06-16.56.39:444][493]LogStaticMesh: mytent 스태틱 메시 빌드중...
+[2015.10.06-16.56.39:855][493]LogStaticMesh: Built static mesh [0.411352.2s] /Game/3d_obj/Main/Tent/mytent.mytent
+[2015.10.06-16.56.39:939][493]LogTexture:Display: 텍스처 빌드중: 탱크 (AutoDXT)
+[2015.10.06-16.56.40:083][493]LogMaterial: Missing cached shader map for material Material_Tank, compiling. 
+[2015.10.06-16.56.40:105][493]LogTexture:Display: 텍스처 빌드중: 고글모자 (AutoDXT)
+[2015.10.06-16.56.40:258][493]LogMaterial: Missing cached shader map for material Material_Hat, compiling. 
+[2015.10.06-16.56.40:291][493]LogTexture:Display: 텍스처 빌드중: 기본캐릭터 (AutoDXT)
+[2015.10.06-16.56.40:409][493]LogMaterial: Missing cached shader map for material Material_Char, compiling. 
+[2015.10.06-16.56.40:431][493]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_2 (AutoDXT)
+[2015.10.06-16.56.40:447][493]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap1_3 (AutoDXT)
+[2015.10.06-16.56.40:448][493]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_2 (DXT1)
+[2015.10.06-16.56.40:463][493]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_1_3 (DXT1)
+[2015.10.06-16.56.40:464][493]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_4 (G8)
+[2015.10.06-16.56.40:465][493]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_5 (G8)
+[2015.10.06-16.56.40:528][493]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.06-16.56.40:552][493]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-16.56.40:665][493]Cmd: MAP LOAD FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.10.06-16.56.40:665][493]LightingResults: New page: 라이팅 빌드
+[2015.10.06-16.56.40:697][493]LoadErrors: New page: 맵 로드중: LV_Main.umap
+[2015.10.06-16.56.40:697][493]MapCheck: New page: 맵 체크
+[2015.10.06-16.56.40:698][493]LightingResults: New page: 라이팅 빌드
+[2015.10.06-16.56.40:714][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E431BAB60
+[2015.10.06-16.56.40:718][493]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-16.56.40:821][493]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.06-16.56.40:870][493]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.06-16.56.40:953][493]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 82.528ms.
+[2015.10.06-16.56.40:953][493]LogFileHelpers: Loading map 'LV_Main' took 0.290
+[2015.10.06-17.02.24:820][984]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.10.06-17.02.24:949][984]LogUObjectGlobals:Warning: 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-17.02.44:016][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/GameStart/GameStart" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart/GameStart.uasset" SILENT=true
+[2015.10.06-17.02.44:099][133]LogSavePackage: Save=48.829285ms
+[2015.10.06-17.02.44:099][133]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart28A774C0404229F380D9B8827E94EDC8.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart/GameStart.uasset'
+[2015.10.06-17.02.44:103][133]LogSavePackage: Total save time: 85.344009ms
+[2015.10.06-17.02.44:103][133]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/GameStart/GameStart.uasset
+[2015.10.06-17.02.50:462][665]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2015.10.06-17.02.50:605][665]LogUObjectGlobals:Warning: 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C' 오브젝트를 찾는 데 실패했습니다.
+[2015.10.06-17.02.50:957][665]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.10.06-17.02.56:973][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-17.02.57:054][ 24]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오전 11:02:56)
+[2015.10.06-17.02.57:054][ 24]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-17.02.57:061][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007218s)
+[2015.10.06-17.02.57:063][ 24]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-17.02.57:064][ 24]LogPlayLevel: PIE: World Init took: (0.002511s)
+[2015.10.06-17.02.57:064][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.010327s)
+[2015.10.06-17.02.57:108][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E42CD6B60
+[2015.10.06-17.02.57:109][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E0303B380
+[2015.10.06-17.02.57:130][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E55D114E0
+[2015.10.06-17.02.57:131][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E55D12700
+[2015.10.06-17.02.57:131][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E4A94BE20
+[2015.10.06-17.02.57:131][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E4A94BB00
+[2015.10.06-17.02.57:131][ 24]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-17.02.57:137][ 24]LogInit: FAudioDevice initialized.
+[2015.10.06-17.02.57:246][ 24]LogWorld: Game class is 'GameMode'
+[2015.10.06-17.02.57:252][ 24]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.02.57:256][ 24]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-02.02.57
+[2015.10.06-17.02.57:256][ 24]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.02.57:257][ 24]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.02.57:258][ 24]LogWorld: Bringing up level for play took: 0.008414
+[2015.10.06-17.02.57:358][ 24]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.541
+[2015.10.06-17.03.09:764][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E29B57880
+[2015.10.06-17.03.13:801][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-17.03.13:801][723]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오전 11:03:13)
+[2015.10.06-17.03.13:801][723]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-17.03.13:804][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002218s)
+[2015.10.06-17.03.13:805][723]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-17.03.13:805][723]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2015.10.06-17.03.13:805][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.003448s)
+[2015.10.06-17.03.13:829][723]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-17.03.13:834][723]LogInit: FAudioDevice initialized.
+[2015.10.06-17.03.13:871][723]LogWorld: Game class is 'GameMode'
+[2015.10.06-17.03.13:874][723]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.03.13:875][723]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-02.03.13
+[2015.10.06-17.03.13:875][723]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.03.13:875][723]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.03.13:875][723]LogWorld: Bringing up level for play took: 0.002509
+[2015.10.06-17.03.13:878][723]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 1.061
+[2015.10.06-17.03.23:697][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E29B55EE0
+[2015.10.06-17.35.23:696][740]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:\GitHub\sinkhole\Res\Net.fbx)
+[2015.10.06-17.35.23:921][740]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.06-17.35.23:921][740]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2015.10.06-17.35.23:922][740]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.10.06-17.35.23:922][740]LogFbx: ItemName: Model, ItemCount : 3
+[2015.10.06-17.35.24:003][740]LogFbx: Loading FBX Scene from D:\GitHub\sinkhole\Res\Net.fbx
+[2015.10.06-17.35.24:106][740]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-17.35.34:262][740]LogFbx: Loading FBX Scene from D:\GitHub\sinkhole\Res\Net.fbx
+[2015.10.06-17.35.34:285][740]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-17.35.34:290][740]LogFbx:Warning: Triangulating static mesh Cube
+[2015.10.06-17.35.39:791][740]LogStaticMesh: Net 스태틱 메시 빌드중...
+[2015.10.06-17.35.41:751][740]LogStaticMesh: Built static mesh [1.960143.2s] /Game/3d_obj/Main/Net.Net
+[2015.10.06-17.35.41:812][740]FBXImport:Warning: 경고 경고: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 올바른 버텍스 노멀을 유추할 수 있도록 FBX 익스포트가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2015.10.06-17.35.41:812][740]FBXImport:Warning: 경고 경고: 임포트된 메시가 매우 작습니다. 이 문제는 거의 FBX 로 익스포트시 사용되는 단위 관련 문제입니다. 
+[2015.10.06-17.35.44:803][999]LogActorFactory: Actor Factory created Net
+[2015.10.06-17.35.45:511][ 42]LogActorFactory: Actor Factory created Net
+[2015.10.06-17.35.47:497][183]Cmd: DELETE
+[2015.10.06-17.35.47:497][183]Cmd: ACTOR DELETE
+[2015.10.06-17.35.47:552][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.06-17.35.47:585][183]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2015.10.06-17.35.57:774][510]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:\GitHub\sinkhole\Res\Net.fbx)
+[2015.10.06-17.35.57:781][510]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.06-17.35.57:781][510]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2015.10.06-17.35.57:781][510]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.10.06-17.35.57:781][510]LogFbx: ItemName: Model, ItemCount : 3
+[2015.10.06-17.35.57:791][510]LogFbx: Loading FBX Scene from D:\GitHub\sinkhole\Res\Net.fbx
+[2015.10.06-17.35.57:812][510]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-17.36.03:029][510]LogFbx: Loading FBX Scene from D:\GitHub\sinkhole\Res\Net.fbx
+[2015.10.06-17.36.03:050][510]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.06-17.36.03:060][510]LogFbx:Warning: Triangulating static mesh Cube
+[2015.10.06-17.36.08:603][510]LogStaticMesh: Net 스태틱 메시 빌드중...
+[2015.10.06-17.36.09:636][510]LogStaticMesh: Built static mesh [1.032749.2s] /Game/3d_obj/Main/Net.Net
+[2015.10.06-17.36.09:707][510]FBXImport:Warning: 경고 경고: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 올바른 버텍스 노멀을 유추할 수 있도록 FBX 익스포트가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2015.10.06-17.36.13:642][943]LogActorFactory: Actor Factory created Net
+[2015.10.06-17.36.14:590][  9]LogActorFactory: Actor Factory created Net
+[2015.10.06-17.36.39:411][388]Cmd: TRANSACTION UNDO
+[2015.10.06-17.36.39:411][388]LogEditorTransaction: Undo 액터 이동
+[2015.10.06-17.37.22:064][914]Cmd: TRANSACTION UNDO
+[2015.10.06-17.37.22:064][914]LogEditorTransaction: Undo 액터 회전을 설정합니다.
+[2015.10.06-17.37.24:751][123]Cmd: TRANSACTION UNDO
+[2015.10.06-17.37.24:751][123]LogEditorTransaction: Undo 액터 회전을 설정합니다.
+[2015.10.06-17.37.30:768][565]Cmd: TRANSACTION UNDO
+[2015.10.06-17.37.30:768][565]LogEditorTransaction: Undo 액터 클릭
+[2015.10.06-17.37.34:285][809]Cmd: TRANSACTION UNDO
+[2015.10.06-17.37.34:285][809]LogEditorTransaction: Undo 액터 클릭
+[2015.10.06-17.37.35:457][889]Cmd: TRANSACTION UNDO
+[2015.10.06-17.37.35:458][889]LogEditorTransaction: Undo 액터 클릭
+[2015.10.06-17.37.36:350][952]Cmd: TRANSACTION UNDO
+[2015.10.06-17.37.36:350][952]LogEditorTransaction: Undo 액터 회전을 설정합니다.
+[2015.10.06-17.37.45:076][649]Cmd: CAMERA SNAP
+[2015.10.06-17.37.45:076][649]Snapped camera to the first selected object.
+[2015.10.06-17.39.01:846][250]Cmd: CAMERA SNAP
+[2015.10.06-17.39.01:846][250]Snapped camera to the first selected object.
+[2015.10.06-17.39.08:192][916]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (mytent2)
+[2015.10.06-17.39.10:206][ 79]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.06-17.39.11:610][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Net)
+[2015.10.06-17.39.17:913][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent)
+[2015.10.06-17.39.26:543][720]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (GameStart)
+[2015.10.06-17.39.34:155][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent2)
+[2015.10.06-17.39.42:912][333]Cmd: TRANSACTION UNDO
+[2015.10.06-17.39.42:912][333]LogEditorTransaction: Undo 액터 회전을 설정합니다.
+[2015.10.06-17.40.24:560][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (place)
+[2015.10.06-17.40.25:394][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Net)
+[2015.10.06-17.41.37:051][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent2)
+[2015.10.06-17.41.46:238][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent)
+[2015.10.06-17.41.49:143][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent2)
+[2015.10.06-17.42.18:420][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Net)
+[2015.10.06-17.42.34:755][786]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (GameStart)
+[2015.10.06-17.42.51:089][458]Cmd: EDIT COPY
+[2015.10.06-17.42.51:347][482]Cmd: EDIT PASTE
+[2015.10.06-17.43.21:672][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (place)
+[2015.10.06-17.43.23:532][538]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.06-17.43.46:839][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/LV/LV_Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.10.06-17.43.46:911][988]LogSavePackage: Save=62.889641ms
+[2015.10.06-17.43.46:911][988]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_Main_Auto1601FD4474D0AD258A710D9A4FB7E50ED.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/LV/LV_Main_Auto1.umap'
+[2015.10.06-17.43.46:912][988]LogSavePackage: Total save time: 71.039371ms
+[2015.10.06-17.43.46:912][988]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/LV/LV_Main_Auto1.umap
+[2015.10.06-17.43.46:915][988]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LV/LV_Main' took 0.101
+[2015.10.06-17.43.46:915][988]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.101
+[2015.10.06-17.43.46:920][988]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3d_obj/Main/Net] ([1] browsable assets)...
+[2015.10.06-17.43.46:945][988]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/3d_obj/Main/Net.Net]
+[2015.10.06-17.43.46:945][988]OBJ SavePackage: Finished generating thumbnails for package [/Game/3d_obj/Main/Net]
+[2015.10.06-17.43.46:945][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/Net" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Main/Net_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.10.06-17.43.46:966][988]LogSavePackage: Save=19.519720ms
+[2015.10.06-17.43.46:966][988]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/Net_Auto173027A024CCA598AE39DF48AF4F7EA05.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Main/Net_Auto1.uasset'
+[2015.10.06-17.43.46:967][988]LogSavePackage: Total save time: 20.486962ms
+[2015.10.06-17.43.46:967][988]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/3d_obj/Main/Net_Auto1.uasset
+[2015.10.06-17.43.46:967][988]LogFileHelpers: Auto-saving content packages took 0.050
+[2015.10.06-17.44.57:866][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-17.44.57:961][417]LogSavePackage: Save=74.434425ms
+[2015.10.06-17.44.57:961][417]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_MainED7B2D1D4AEB60165584C3BB78A4F9C2.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-17.44.57:965][417]LogSavePackage: Total save time: 81.250861ms
+[2015.10.06-17.44.57:965][417]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-17.44.58:015][417]LogFileHelpers: Saving map 'LV_Main' took 0.235
+[2015.10.06-17.44.58:044][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3d_obj/Main/Net" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/Net.uasset" SILENT=true
+[2015.10.06-17.44.58:065][417]LogSavePackage: Save=19.055296ms
+[2015.10.06-17.44.58:065][417]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/NetF1642FE34FB329002653CFA6AF2025F5.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/Net.uasset'
+[2015.10.06-17.44.58:066][417]LogSavePackage: Total save time: 20.716984ms
+[2015.10.06-17.44.58:066][417]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/3d_obj/Main/Net.uasset
+[2015.10.06-17.44.59:965][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-17.44.59:965][601]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오전 11:44:59)
+[2015.10.06-17.44.59:965][601]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-17.44.59:968][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002444s)
+[2015.10.06-17.44.59:969][601]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-17.44.59:969][601]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2015.10.06-17.44.59:969][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.003720s)
+[2015.10.06-17.44.59:994][601]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-17.45.00:000][601]LogInit: FAudioDevice initialized.
+[2015.10.06-17.45.00:038][601]LogWorld: Game class is 'GameMode'
+[2015.10.06-17.45.00:040][601]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.45.00:042][601]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-02.45.00
+[2015.10.06-17.45.00:042][601]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.45.00:042][601]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.45.00:043][601]LogWorld: Bringing up level for play took: 0.002972
+[2015.10.06-17.45.00:045][601]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.772
+[2015.10.06-17.45.05:198][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E03039BC0
+[2015.10.06-17.45.15:976][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (place)
+[2015.10.06-17.45.22:787][868]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.45.39:742][567]LogPrimitiveComponent: Zero scaling not supported (/Game/LV/LV_Main.LV_Main:PersistentLevel.place_7.StaticMeshComponent0)
+[2015.10.06-17.45.43:668][959]LogPrimitiveComponent: Zero scaling not supported (/Game/LV/LV_Main.LV_Main:PersistentLevel.place_7.StaticMeshComponent0)
+[2015.10.06-17.45.46:995][290]LogPrimitiveComponent: Zero scaling not supported (/Game/LV/LV_Main.LV_Main:PersistentLevel.place_7.StaticMeshComponent0)
+[2015.10.06-17.45.50:797][669]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.46.07:298][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent3)
+[2015.10.06-17.46.14:297][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent3)
+[2015.10.06-17.46.20:954][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent3)
+[2015.10.06-17.46.30:885][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent3)
+[2015.10.06-17.46.32:683][830]Cmd: EDIT COPY
+[2015.10.06-17.46.32:959][857]Cmd: EDIT PASTE
+[2015.10.06-17.46.53:280][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent2)
+[2015.10.06-17.47.06:157][ 41]Cmd: DELETE
+[2015.10.06-17.47.06:157][ 41]Cmd: ACTOR DELETE
+[2015.10.06-17.47.06:158][ 41]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.06-17.47.06:177][ 41]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.10.06-17.47.06:931][130]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (place)
+[2015.10.06-17.47.07:712][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent5)
+[2015.10.06-17.47.19:906][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent6)
+[2015.10.06-17.47.20:795][403]Cmd: DELETE
+[2015.10.06-17.47.20:795][403]Cmd: ACTOR DELETE
+[2015.10.06-17.47.20:797][403]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.06-17.47.20:816][403]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2015.10.06-17.47.21:225][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent5)
+[2015.10.06-17.47.23:713][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mytent4)
+[2015.10.06-17.47.49:839][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (place)
+[2015.10.06-17.47.50:809][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (place)
+[2015.10.06-17.47.55:029][949]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.10.06-17.48.05:764][731]Cmd: TRANSACTION UNDO
+[2015.10.06-17.48.05:764][731]LogEditorTransaction: Undo 액터 이동
+[2015.10.06-17.48.07:466][852]LogEditorViewport: Clicking on Actor (context menu): CameraActor (CameraActor)
+[2015.10.06-17.48.08:214][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (place)
+[2015.10.06-17.48.09:047][949]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.10.06-17.48.39:693][309]MapCheck: New page: 맵 체크
+[2015.10.06-17.48.39:920][309]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.06-17.48.39:920][309]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.06-17.48.40:003][309]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.48.40:026][309]LightingResults: New page: 라이팅 빌드 - 2015. 10. 7. 오전 11:48:40
+[2015.10.06-17.48.56:666][309]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.10.06-17.48.56:667][309]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.06-17.48.56:667][309]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.06-17.48.56:667][309]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.06-17.48.56:667][309]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.06-17.48.56:667][309]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.06-17.48.57:949][309]LogEditorBuildUtils: Build time 0:00:18
+[2015.10.06-17.48.57:970][309]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_123, compiling. 
+[2015.10.06-17.48.57:976][309]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_123, compiling. 
+[2015.10.06-17.48.58:071][310]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer NewMaterial, compiling. 
+[2015.10.06-17.48.58:079][310]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer NewMaterial, compiling. 
+[2015.10.06-17.48.58:108][311]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2015.10.06-17.48.58:116][311]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material, compiling. 
+[2015.10.06-17.48.58:189][312]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.10.06-17.48.58:198][312]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.10.06-17.49.19:080][156]Job is a success!
+[2015.10.06-17.49.19:156][157]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.49.19:176][157]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.49.19:199][157]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.06-17.49.19:313][157]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_2 (DXT1)
+[2015.10.06-17.49.19:314][157]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.06-17.49.19:315][157]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_1 (DXT1)
+[2015.10.06-17.49.19:425][157]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_0 (G8)
+[2015.10.06-17.49.19:429][157]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_1 (G8)
+[2015.10.06-17.49.19:825][157]Lightmass on EDRAGON33-PC: 10.7 sec total, 498 ms importing, 294 ms setup, 659 ms photons, 9.07 sec processing, 0 ms extra exporting [8/8 mappings]. Threads: 35.9 sec total, 24.7 sec processing.
+[2015.10.06-17.49.19:837][157]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.49.19:882][157]LogStaticLightingSystem: Illumination: 39.8 sec (245 ms encoding lightmaps)
+[2015.10.06-17.49.19:882][157]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.10.06-17.49.19:882][157]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.10.06-17.49.20:679][158]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.06-17.49.20:679][158]MapCheck: New page: LV_Main - 2015. 10. 7. 오전 11:49:20
+[2015.10.06-17.49.20:837][158]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 158.158ms.
+[2015.10.06-17.49.53:607][ 22]LogEditorActor: Deleted Actor: CameraActor
+[2015.10.06-17.49.53:624][ 22]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.10.06-17.50.23:249][190]LogPrimitiveComponent: Zero scaling not supported (/Game/LV/LV_Main.LV_Main:PersistentLevel.CameraActor_6.StaticMeshComponent_56)
+[2015.10.06-17.50.24:316][313]LogPrimitiveComponent: Zero scaling not supported (/Game/LV/LV_Main.LV_Main:PersistentLevel.CameraActor_6.StaticMeshComponent_57)
+[2015.10.06-17.50.27:217][639]LogPrimitiveComponent: Zero scaling not supported (/Game/LV/LV_Main.LV_Main:PersistentLevel.CameraActor_6.StaticMeshComponent_58)
+[2015.10.06-17.50.27:218][639]LogPrimitiveComponent: Zero scaling not supported (/Game/LV/LV_Main.LV_Main:PersistentLevel.CameraActor_6.StaticMeshComponent_59)
+[2015.10.06-17.50.34:976][475]LogPrimitiveComponent: Zero scaling not supported (/Game/LV/LV_Main.LV_Main:PersistentLevel.CameraActor_6.StaticMeshComponent_60)
+[2015.10.06-17.51.15:956][732]Cmd: CAMERA SNAP
+[2015.10.06-17.51.15:956][732]Snapped camera to the first selected object.
+[2015.10.06-17.51.21:782][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (place)
+[2015.10.06-17.51.34:666][644]Cmd: CAMERA SNAP
+[2015.10.06-17.51.34:666][644]Snapped camera to the first selected object.
+[2015.10.06-17.51.52:577][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (place)
+[2015.10.06-17.51.53:557][729]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.10.06-17.52.22:296][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-17.52.22:378][723]LogSavePackage: Save=56.721207ms
+[2015.10.06-17.52.22:378][723]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_MainA8B83BAA4FC419E3224A73BD5EF49CCA.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-17.52.22:380][723]LogSavePackage: Total save time: 66.630270ms
+[2015.10.06-17.52.22:380][723]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-17.52.22:443][723]LogFileHelpers: Saving map 'LV_Main' took 0.230
+[2015.10.06-17.52.28:974][349]Cmd: CAMERA SNAP
+[2015.10.06-17.52.28:974][349]Snapped camera to the first selected object.
+[2015.10.06-17.53.34:140][674]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.06-17.53.35:465][674]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 107 classes and 0 folders.
+[2015.10.06-17.55.13:027][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E55D0F240
+[2015.10.06-17.56.46:787][620]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E284A1620
+[2015.10.06-17.57.06:084][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-17.57.06:085][491]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오전 11:57:06)
+[2015.10.06-17.57.06:085][491]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-17.57.06:087][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002053s)
+[2015.10.06-17.57.06:088][491]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-17.57.06:088][491]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2015.10.06-17.57.06:088][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.003276s)
+[2015.10.06-17.57.06:132][491]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-17.57.06:138][491]LogInit: FAudioDevice initialized.
+[2015.10.06-17.57.06:176][491]LogWorld: Game class is 'GameMode'
+[2015.10.06-17.57.06:178][491]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.57.06:180][491]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-02.57.06
+[2015.10.06-17.57.06:180][491]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.57.06:180][491]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.57.06:181][491]LogWorld: Bringing up level for play took: 0.003273
+[2015.10.06-17.57.06:183][491]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.634
+[2015.10.06-17.57.07:850][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E4A94B100
+[2015.10.06-17.57.11:607][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-17.57.11:607][ 19]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오전 11:57:11)
+[2015.10.06-17.57.11:607][ 19]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-17.57.11:609][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002161s)
+[2015.10.06-17.57.11:610][ 19]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-17.57.11:610][ 19]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2015.10.06-17.57.11:610][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.003343s)
+[2015.10.06-17.57.11:653][ 19]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-17.57.11:659][ 19]LogInit: FAudioDevice initialized.
+[2015.10.06-17.57.11:699][ 19]LogWorld: Game class is 'GameMode'
+[2015.10.06-17.57.11:701][ 19]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.57.11:703][ 19]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-02.57.11
+[2015.10.06-17.57.11:703][ 19]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.57.11:703][ 19]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.57.11:704][ 19]LogWorld: Bringing up level for play took: 0.003029
+[2015.10.06-17.57.11:706][ 19]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.889
+[2015.10.06-17.57.14:154][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E1FF74CC0
+[2015.10.06-17.57.16:265][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-17.57.16:265][470]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오전 11:57:16)
+[2015.10.06-17.57.16:265][470]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-17.57.16:267][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002017s)
+[2015.10.06-17.57.16:268][470]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-17.57.16:268][470]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2015.10.06-17.57.16:269][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.003290s)
+[2015.10.06-17.57.16:312][470]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-17.57.16:317][470]LogInit: FAudioDevice initialized.
+[2015.10.06-17.57.16:359][470]LogWorld: Game class is 'GameMode'
+[2015.10.06-17.57.16:361][470]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.57.16:363][470]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-02.57.16
+[2015.10.06-17.57.16:363][470]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.57.16:363][470]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.57.16:363][470]LogWorld: Bringing up level for play took: 0.003007
+[2015.10.06-17.57.16:365][470]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.451
+[2015.10.06-17.57.17:783][589]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E42C136A0
+[2015.10.06-17.57.20:379][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-17.57.20:379][848]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오전 11:57:20)
+[2015.10.06-17.57.20:379][848]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-17.57.20:381][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002019s)
+[2015.10.06-17.57.20:382][848]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-17.57.20:382][848]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2015.10.06-17.57.20:382][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.003241s)
+[2015.10.06-17.57.20:425][848]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-17.57.20:430][848]LogInit: FAudioDevice initialized.
+[2015.10.06-17.57.20:466][848]LogWorld: Game class is 'GameMode'
+[2015.10.06-17.57.20:469][848]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.57.20:470][848]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-02.57.20
+[2015.10.06-17.57.20:471][848]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.57.20:471][848]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.57.20:471][848]LogWorld: Bringing up level for play took: 0.003412
+[2015.10.06-17.57.20:473][848]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.343
+[2015.10.06-17.57.22:026][985]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E04489120
+[2015.10.06-17.57.53:016][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-17.57.53:017][230]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오전 11:57:53)
+[2015.10.06-17.57.53:017][230]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-17.57.53:019][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002183s)
+[2015.10.06-17.57.53:020][230]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-17.57.53:020][230]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2015.10.06-17.57.53:020][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.003433s)
+[2015.10.06-17.57.53:064][230]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-17.57.53:069][230]LogInit: FAudioDevice initialized.
+[2015.10.06-17.57.53:108][230]LogWorld: Game class is 'GameMode'
+[2015.10.06-17.57.53:110][230]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-17.57.53:112][230]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-02.57.53
+[2015.10.06-17.57.53:112][230]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.57.53:112][230]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-17.57.53:113][230]LogWorld: Bringing up level for play took: 0.003039
+[2015.10.06-17.57.53:115][230]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.299
+[2015.10.06-17.57.55:223][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E1FF76160
+[2015.10.06-18.01.35:208][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.01.35:248][354]LogSavePackage: Save=37.614349ms
+[2015.10.06-18.01.35:248][354]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_Blueprint7DA319BF47EBAFBB3AE0F182EFC52E44.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.01.35:249][354]LogSavePackage: Total save time: 39.382089ms
+[2015.10.06-18.01.35:249][354]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.02.33:560][912]BlueprintLog: New page: GameStart_Blueprint 컴파일
+[2015.10.06-18.02.33:870][912]BlueprintEditorCompileResults: 정보 [3980.07] GameStart_Blueprint 컴파일에 성공했습니다! [소요시간 309 ms]
+[2015.10.06-18.03.13:405][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E192F8CC0
+[2015.10.06-18.03.13:419][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/LV/LV_Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.10.06-18.03.13:581][247]LogSavePackage: Save=152.121292ms
+[2015.10.06-18.03.13:581][247]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_Main_Auto20CEE2D7D48D66BD1049D9EA47DF80911.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/LV/LV_Main_Auto2.umap'
+[2015.10.06-18.03.13:581][247]LogSavePackage: Total save time: 161.006052ms
+[2015.10.06-18.03.13:581][247]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Saved/Autosaves/Game/LV/LV_Main_Auto2.umap
+[2015.10.06-18.03.13:583][247]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LV/LV_Main' took 0.219
+[2015.10.06-18.03.13:583][247]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.219
+[2015.10.06-18.05.14:936][412]BlueprintLog: New page: LV_Main 컴파일
+[2015.10.06-18.05.15:047][412]BlueprintEditorCompileResults: 정보 [4141.25] LV_Main 컴파일에 성공했습니다! [소요시간 110 ms]
+[2015.10.06-18.05.18:702][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-18.05.18:890][686]LogSavePackage: Save=144.535812ms
+[2015.10.06-18.05.18:890][686]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_Main5F1BA5B24C5609710CB9FDB65A190647.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-18.05.18:891][686]LogSavePackage: Total save time: 149.741385ms
+[2015.10.06-18.05.18:891][686]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-18.05.18:936][686]LogFileHelpers: Saving map 'LV_Main' took 0.328
+[2015.10.06-18.05.21:335][913]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.05.21:335][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.05.21:335][913]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:05:21)
+[2015.10.06-18.05.21:335][913]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.05.21:340][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004409s)
+[2015.10.06-18.05.21:341][913]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.05.21:341][913]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2015.10.06-18.05.21:341][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.005645s)
+[2015.10.06-18.05.21:377][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E26AFC680
+[2015.10.06-18.05.21:378][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E19D62CA0
+[2015.10.06-18.05.21:416][913]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.05.21:422][913]LogInit: FAudioDevice initialized.
+[2015.10.06-18.05.21:461][913]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.05.21:463][913]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.05.21:465][913]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.05.21
+[2015.10.06-18.05.21:465][913]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.05.21:465][913]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.05.21:465][913]LogWorld: Bringing up level for play took: 0.003142
+[2015.10.06-18.05.21:481][913]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.664
+[2015.10.06-18.05.21:481][913]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.05.24:443][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.05.24:592][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.05.24:630][206]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E5C8D8180
+[2015.10.06-18.07.12:598][310]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.07.12:598][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.07.12:598][310]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:07:12)
+[2015.10.06-18.07.12:598][310]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.07.12:603][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004363s)
+[2015.10.06-18.07.12:604][310]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.07.12:604][310]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2015.10.06-18.07.12:604][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.005610s)
+[2015.10.06-18.07.12:677][310]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.07.12:682][310]LogInit: FAudioDevice initialized.
+[2015.10.06-18.07.12:721][310]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.07.12:723][310]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.07.12:725][310]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.07.12
+[2015.10.06-18.07.12:725][310]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.07.12:725][310]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.07.12:726][310]LogWorld: Bringing up level for play took: 0.002990
+[2015.10.06-18.07.12:728][310]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.089
+[2015.10.06-18.07.12:728][310]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.07.23:984][539]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.07.24:065][539]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.07.24:115][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E3273ACA0
+[2015.10.06-18.08.09:756][616]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LV_Main', cached variable property's owner is '/Script/Engine.PlayerController'
+[2015.10.06-18.08.18:675][143]BlueprintLog: New page: LV_Main 컴파일
+[2015.10.06-18.08.18:696][143]LogBlueprint:Error: [compiler LV_Main] 오류 이 블루프린트(self)는 PlayerController 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2015.10.06-18.08.18:696][143]LogBlueprint:Error: [compiler LV_Main] 오류  bShowMouseCursor 설정  변수 노드가 유효하지 않은 타겟을 사용합니다. 실행 체인에 연결되지 않았다가 제거된 노드에 의존하는 것 같습니다.
+[2015.10.06-18.08.18:925][143]LogBlueprint:Warning: [compiler LV_Main] 경고 [4325.13] LV_Main 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 249 ms]
+[2015.10.06-18.08.18:925][143]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 PlayerController 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2015.10.06-18.08.18:925][143]BlueprintEditorCompileResults:Error: 오류  bShowMouseCursor 설정  변수 노드가 유효하지 않은 타겟을 사용합니다. 실행 체인에 연결되지 않았다가 제거된 노드에 의존하는 것 같습니다.
+[2015.10.06-18.08.18:925][143]BlueprintEditorCompileResults:Warning: 경고 [4325.13] LV_Main 컴파일에 실패했습니다. 치명적 오류 2 회, 경고 0 회, [소요시간 249 ms]
+[2015.10.06-18.08.35:535][967]BlueprintLog: New page: LV_Main 컴파일
+[2015.10.06-18.08.35:667][967]BlueprintEditorCompileResults: 정보 [4341.87] LV_Main 컴파일에 성공했습니다! [소요시간 132 ms]
+[2015.10.06-18.08.42:242][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-18.08.42:475][357]LogSavePackage: Save=169.771606ms
+[2015.10.06-18.08.42:475][357]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_Main4A26AC0E4241CC2E487C0D9B7DDAAFE9.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-18.08.42:477][357]LogSavePackage: Total save time: 182.637986ms
+[2015.10.06-18.08.42:478][357]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-18.08.42:529][357]LogFileHelpers: Saving map 'LV_Main' took 0.395
+[2015.10.06-18.08.46:773][661]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.08.46:774][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.08.46:774][661]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:08:46)
+[2015.10.06-18.08.46:774][661]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.08.46:779][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005613s)
+[2015.10.06-18.08.46:781][661]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.08.46:781][661]LogPlayLevel: PIE: World Init took: (0.001432s)
+[2015.10.06-18.08.46:781][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.007357s)
+[2015.10.06-18.08.46:842][661]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E2D6A1E40
+[2015.10.06-18.08.46:873][661]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.08.46:880][661]LogInit: FAudioDevice initialized.
+[2015.10.06-18.08.46:918][661]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.08.46:921][661]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.08.46:922][661]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.08.46
+[2015.10.06-18.08.46:923][661]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.08.46:923][661]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.08.46:923][661]LogWorld: Bringing up level for play took: 0.003353
+[2015.10.06-18.08.46:926][661]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.11
+[2015.10.06-18.08.46:926][661]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.09.04:604][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.09.04:770][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.09.04:808][542]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E57F328E0
+[2015.10.06-18.10.02:234][981]Cmd: TRANSACTION UNDO
+[2015.10.06-18.10.02:234][981]LogEditorTransaction: Undo 액터 이동
+[2015.10.06-18.10.41:018][537]BlueprintLog: New page: LV_Main 컴파일
+[2015.10.06-18.10.41:129][537]BlueprintEditorCompileResults: 정보 [4467.33] LV_Main 컴파일에 성공했습니다! [소요시간 111 ms]
+[2015.10.06-18.10.44:637][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-18.10.44:832][799]LogSavePackage: Save=149.578659ms
+[2015.10.06-18.10.44:832][799]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_MainFC1D57E34942B8AB1A81099C2B7C07A5.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-18.10.44:833][799]LogSavePackage: Total save time: 155.010592ms
+[2015.10.06-18.10.44:833][799]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-18.10.44:881][799]LogFileHelpers: Saving map 'LV_Main' took 0.337
+[2015.10.06-18.11.16:134][825]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.20:659][147]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.20:666][147]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.20:672][147]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.20:745][147]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.56:007][540]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.56:014][540]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.56:021][540]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.56:092][540]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.57:546][642]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.57:553][642]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.57:560][642]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.57:632][642]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.58:637][713]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.58:645][713]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.58:651][713]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.58:723][713]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.59:519][768]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.59:526][768]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.59:532][768]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.11.59:604][768]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.12.07:173][296]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.12.07:245][296]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.12.22:834][421]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.12.25:444][602]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.12.26:781][694]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.12.50:575][219]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.12.54:336][472]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.12.59:485][827]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.13.27:980][638]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.13.27:987][638]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.13.27:994][638]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.13.28:087][638]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.13.33:143][956]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.13.34:250][ 23]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.14.03:701][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.14.03:758][748]LogSavePackage: Save=46.973049ms
+[2015.10.06-18.14.03:758][748]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_BlueprintF5C4C42A4A1B7A1513060A94E53BEF0A.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.14.03:759][748]LogSavePackage: Total save time: 56.280553ms
+[2015.10.06-18.14.03:759][748]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.14.04:379][792]BlueprintLog: New page: GameStart_Blueprint 컴파일
+[2015.10.06-18.14.04:516][792]BlueprintEditorCompileResults: 정보 [4670.72] GameStart_Blueprint 컴파일에 성공했습니다! [소요시간 136 ms]
+[2015.10.06-18.14.07:297][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-18.14.07:514][983]LogSavePackage: Save=164.872116ms
+[2015.10.06-18.14.07:514][983]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_MainC1DB761C4C13700B12408DA09E096C57.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-18.14.07:516][983]LogSavePackage: Total save time: 175.486583ms
+[2015.10.06-18.14.07:516][983]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-18.14.07:562][983]LogFileHelpers: Saving map 'LV_Main' took 0.361
+[2015.10.06-18.14.34:371][427]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.14.35:716][511]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.14.36:413][555]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.14.36:465][555]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.14.40:049][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.14.40:102][778]LogSavePackage: Save=47.167233ms
+[2015.10.06-18.14.40:102][778]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_Blueprint94D73168427E1670F31CC89A689B116F.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.14.40:103][778]LogSavePackage: Total save time: 52.481413ms
+[2015.10.06-18.14.40:103][778]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.14.40:941][831]BlueprintLog: New page: GameStart_Blueprint 컴파일
+[2015.10.06-18.14.41:199][831]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E1B52C4A0
+[2015.10.06-18.14.41:201][831]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E24D76160
+[2015.10.06-18.14.41:211][831]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.14.41:212][831]BlueprintEditorCompileResults: 정보 [4707.41] GameStart_Blueprint 컴파일에 성공했습니다! [소요시간 270 ms]
+[2015.10.06-18.14.41:286][831]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.14.58:632][757]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.14.58:632][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.14.58:632][757]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:14:58)
+[2015.10.06-18.14.58:633][757]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.14.58:638][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005345s)
+[2015.10.06-18.14.58:639][757]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.14.58:639][757]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2015.10.06-18.14.58:639][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006582s)
+[2015.10.06-18.14.58:675][757]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E22B41760
+[2015.10.06-18.14.58:687][757]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.14.58:693][757]LogInit: FAudioDevice initialized.
+[2015.10.06-18.14.58:735][757]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.14.58:737][757]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.14.58:739][757]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.14.58
+[2015.10.06-18.14.58:739][757]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.14.58:739][757]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.14.58:740][757]LogWorld: Bringing up level for play took: 0.003512
+[2015.10.06-18.14.58:742][757]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.074
+[2015.10.06-18.14.58:742][757]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.15.03:336][237]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.15.03:414][237]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.15.03:458][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E5FE768E0
+[2015.10.06-18.15.17:490][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.15.17:490][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.15.17:490][506]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:15:17)
+[2015.10.06-18.15.17:490][506]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.15.17:495][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005210s)
+[2015.10.06-18.15.17:496][506]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.15.17:496][506]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2015.10.06-18.15.17:496][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006411s)
+[2015.10.06-18.15.17:544][506]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.15.17:549][506]LogInit: FAudioDevice initialized.
+[2015.10.06-18.15.17:587][506]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.15.17:589][506]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.15.17:591][506]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.15.17
+[2015.10.06-18.15.17:591][506]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.15.17:591][506]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.15.17:592][506]LogWorld: Bringing up level for play took: 0.003410
+[2015.10.06-18.15.17:594][506]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.778
+[2015.10.06-18.15.17:594][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.15.36:735][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.15.36:894][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.15.37:094][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E22B42AC0
+[2015.10.06-18.16.06:327][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.16.06:378][778]LogSavePackage: Save=44.915321ms
+[2015.10.06-18.16.06:378][778]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_BlueprintE7B517D743649386DE41AD8862204ADB.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.16.06:380][778]LogSavePackage: Total save time: 50.161488ms
+[2015.10.06-18.16.06:380][778]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.16.07:545][868]BlueprintLog: New page: GameStart_Blueprint 컴파일
+[2015.10.06-18.16.07:767][868]BlueprintEditorCompileResults: 정보 [4793.97] GameStart_Blueprint 컴파일에 성공했습니다! [소요시간 221 ms]
+[2015.10.06-18.16.10:024][ 76]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.16.10:024][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.16.10:024][ 76]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:16:10)
+[2015.10.06-18.16.10:024][ 76]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.16.10:030][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005337s)
+[2015.10.06-18.16.10:031][ 76]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.16.10:031][ 76]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2015.10.06-18.16.10:031][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006560s)
+[2015.10.06-18.16.10:078][ 76]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.16.10:084][ 76]LogInit: FAudioDevice initialized.
+[2015.10.06-18.16.10:123][ 76]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.16.10:125][ 76]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.16.10:127][ 76]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.16.10
+[2015.10.06-18.16.10:127][ 76]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.16.10:127][ 76]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.16.10:127][ 76]LogWorld: Bringing up level for play took: 0.003360
+[2015.10.06-18.16.10:130][ 76]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.686
+[2015.10.06-18.16.10:130][ 76]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.16.59:481][602]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.16.59:618][602]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.16.59:663][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E737DE840
+[2015.10.06-18.17.14:093][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.14:093][418]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2015.10.06-18.17.14:101][418]LogPlayLevel: [PlayLevel] Compiling GameStart_Blueprint before play...
+[2015.10.06-18.17.14:731][418]LogPlayLevel: PlayLevel: Blueprint regeneration took 637 ms (1 blueprints)
+[2015.10.06-18.17.14:772][418]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:17:14)
+[2015.10.06-18.17.14:772][418]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.17.14:777][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005130s)
+[2015.10.06-18.17.14:778][418]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.17.14:778][418]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2015.10.06-18.17.14:778][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006564s)
+[2015.10.06-18.17.14:826][418]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.17.14:831][418]LogInit: FAudioDevice initialized.
+[2015.10.06-18.17.14:868][418]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.17.14:871][418]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.17.14:872][418]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.17.14
+[2015.10.06-18.17.14:873][418]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.17.14:873][418]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.17.14:873][418]LogWorld: Bringing up level for play took: 0.003270
+[2015.10.06-18.17.14:875][418]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.059
+[2015.10.06-18.17.14:876][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.17:665][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.17:958][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.18:186][589]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E5A5784A0
+[2015.10.06-18.17.22:116][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.22:116][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.17.22:116][798]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:17:22)
+[2015.10.06-18.17.22:116][798]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.17.22:121][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005198s)
+[2015.10.06-18.17.22:122][798]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.17.22:122][798]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2015.10.06-18.17.22:122][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006511s)
+[2015.10.06-18.17.22:170][798]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.17.22:175][798]LogInit: FAudioDevice initialized.
+[2015.10.06-18.17.22:215][798]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.17.22:217][798]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.17.22:219][798]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.17.22
+[2015.10.06-18.17.22:219][798]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.17.22:219][798]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.17.22:219][798]LogWorld: Bringing up level for play took: 0.003266
+[2015.10.06-18.17.22:222][798]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.594
+[2015.10.06-18.17.22:222][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.27:681][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.27:862][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.28:041][231]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E24D77560
+[2015.10.06-18.17.45:052][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.45:052][167]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2015.10.06-18.17.45:060][167]LogPlayLevel: [PlayLevel] Compiling GameStart_Blueprint before play...
+[2015.10.06-18.17.45:579][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 526 ms (1 blueprints)
+[2015.10.06-18.17.45:622][167]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:17:45)
+[2015.10.06-18.17.45:622][167]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.17.45:627][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005184s)
+[2015.10.06-18.17.45:628][167]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.17.45:629][167]LogPlayLevel: PIE: World Init took: (0.001163s)
+[2015.10.06-18.17.45:629][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006568s)
+[2015.10.06-18.17.45:676][167]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.17.45:681][167]LogInit: FAudioDevice initialized.
+[2015.10.06-18.17.45:719][167]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.17.45:721][167]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.17.45:723][167]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.17.45
+[2015.10.06-18.17.45:723][167]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.17.45:723][167]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.17.45:723][167]LogWorld: Bringing up level for play took: 0.003261
+[2015.10.06-18.17.45:726][167]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.909
+[2015.10.06-18.17.45:726][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.50:469][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.50:732][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.17.50:965][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E29F9F740
+[2015.10.06-18.18.13:769][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.18.13:769][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.18.13:769][943]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:18:13)
+[2015.10.06-18.18.13:769][943]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.18.13:774][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005226s)
+[2015.10.06-18.18.13:775][943]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.18.13:775][943]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2015.10.06-18.18.13:775][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006429s)
+[2015.10.06-18.18.13:824][943]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.18.13:829][943]LogInit: FAudioDevice initialized.
+[2015.10.06-18.18.13:870][943]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.18.13:872][943]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.18.13:874][943]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.18.13
+[2015.10.06-18.18.13:874][943]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.18.13:874][943]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.18.13:874][943]LogWorld: Bringing up level for play took: 0.003203
+[2015.10.06-18.18.13:876][943]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 1.06
+[2015.10.06-18.18.13:877][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.18.19:321][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.18.19:372][372]LogSavePackage: Save=45.496765ms
+[2015.10.06-18.18.19:372][372]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_Blueprint1A4454FE4BE3D930C793B3A12A6E4AE9.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.18.19:373][372]LogSavePackage: Total save time: 50.805464ms
+[2015.10.06-18.18.19:373][372]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.18.23:656][676]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.18.23:823][676]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.18.23:865][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E5AA18EA0
+[2015.10.06-18.18.55:468][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.18.55:468][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.18.55:468][669]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:18:55)
+[2015.10.06-18.18.55:468][669]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.18.55:473][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005068s)
+[2015.10.06-18.18.55:474][669]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.18.55:474][669]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2015.10.06-18.18.55:474][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006292s)
+[2015.10.06-18.18.55:522][669]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.18.55:528][669]LogInit: FAudioDevice initialized.
+[2015.10.06-18.18.55:565][669]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.18.55:567][669]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.18.55:569][669]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.18.55
+[2015.10.06-18.18.55:569][669]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.18.55:569][669]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.18.55:569][669]LogWorld: Bringing up level for play took: 0.003388
+[2015.10.06-18.18.55:572][669]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.755
+[2015.10.06-18.18.55:572][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.19.03:859][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.19.04:092][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.19.04:135][542]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E6E4F72E0
+[2015.10.06-18.19.49:324][714]LogRenderer: Reallocating scene render targets to support 1168x940 (Frame:51954).
+[2015.10.06-18.20.06:506][696]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.10.06-18.20.56:953][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.20.57:009][263]LogSavePackage: Save=46.102711ms
+[2015.10.06-18.20.57:009][263]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_Blueprint29D5A32646350B4449F9B2BA1D766581.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.20.57:011][263]LogSavePackage: Total save time: 56.309439ms
+[2015.10.06-18.20.57:011][263]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.20.58:572][354]BlueprintLog: New page: GameStart_Blueprint 컴파일
+[2015.10.06-18.20.59:062][354]BlueprintEditorCompileResults: 정보 [5085.26] GameStart_Blueprint 컴파일에 성공했습니다! [소요시간 488 ms]
+[2015.10.06-18.21.05:525][693]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.21.23:084][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.21.23:135][740]LogSavePackage: Save=45.600620ms
+[2015.10.06-18.21.23:135][740]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_BlueprintE2BBB83A421B4692C184A2909E296086.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.21.23:137][740]LogSavePackage: Total save time: 51.039141ms
+[2015.10.06-18.21.23:137][740]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.21.27:123][815]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.21.27:123][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.21.27:123][815]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:21:27)
+[2015.10.06-18.21.27:124][815]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.21.27:129][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005368s)
+[2015.10.06-18.21.27:130][815]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.21.27:130][815]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2015.10.06-18.21.27:130][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006621s)
+[2015.10.06-18.21.27:179][815]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.21.27:184][815]LogInit: FAudioDevice initialized.
+[2015.10.06-18.21.27:224][815]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.21.27:226][815]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.21.27:229][815]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.21.27
+[2015.10.06-18.21.27:229][815]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.21.27:229][815]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.21.27:229][815]LogWorld: Bringing up level for play took: 0.003757
+[2015.10.06-18.21.27:232][815]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.415
+[2015.10.06-18.21.27:232][815]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.21.33:794][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.21.33:812][246]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.21.33:892][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.21.33:933][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E5AA925C0
+[2015.10.06-18.21.34:044][246]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.21.36:752][366]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.21.38:925][497]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.21.44:812][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.21.44:867][871]LogSavePackage: Save=49.331375ms
+[2015.10.06-18.21.44:867][871]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_BlueprintD20D1CE7401DEF08DF96A3BCBB80528B.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.21.44:868][871]LogSavePackage: Total save time: 54.813411ms
+[2015.10.06-18.21.44:868][871]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.21.45:891][940]BlueprintLog: New page: GameStart_Blueprint 컴파일
+[2015.10.06-18.21.46:156][940]BlueprintEditorCompileResults: 정보 [5132.36] GameStart_Blueprint 컴파일에 성공했습니다! [소요시간 264 ms]
+[2015.10.06-18.21.48:357][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.21.48:357][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.21.48:358][ 18]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:21:48)
+[2015.10.06-18.21.48:358][ 18]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.21.48:363][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005211s)
+[2015.10.06-18.21.48:364][ 18]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.21.48:364][ 18]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2015.10.06-18.21.48:364][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006442s)
+[2015.10.06-18.21.48:412][ 18]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.21.48:417][ 18]LogInit: FAudioDevice initialized.
+[2015.10.06-18.21.48:460][ 18]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.21.48:462][ 18]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.21.48:464][ 18]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.21.48
+[2015.10.06-18.21.48:464][ 18]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.21.48:464][ 18]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.21.48:465][ 18]LogWorld: Bringing up level for play took: 0.003398
+[2015.10.06-18.21.48:467][ 18]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.349
+[2015.10.06-18.21.48:467][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.22.12:257][804]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.22.12:356][804]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.22.12:397][804]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E5C8DB2E0
+[2015.10.06-18.22.36:962][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:962][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:962][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:962][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:962][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:963][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:963][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:963][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:963][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:963][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:964][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:964][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:964][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:964][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:965][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:965][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:965][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:965][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:966][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:966][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:966][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:966][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:966][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.36:966][126]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:885][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:885][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:885][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:885][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:886][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:886][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:886][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:886][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:886][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:886][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:886][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:887][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:887][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:887][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:888][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:888][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:888][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:888][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:889][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:889][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:889][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:889][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:889][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.39:890][277]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:113][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:113][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:113][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:113][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:114][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:114][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:114][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:114][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:114][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:115][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:115][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:115][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:115][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:116][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:116][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:116][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:116][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:116][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:117][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:117][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:117][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:117][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:118][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.42:118][388]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.45:377][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.22.45:433][555]LogSavePackage: Save=50.512550ms
+[2015.10.06-18.22.45:433][555]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_BlueprintC718A56645EC46C32DD7A8AA546F569C.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.22.45:435][555]LogSavePackage: Total save time: 55.913765ms
+[2015.10.06-18.22.45:435][555]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.22.45:844][576]BlueprintLog: New page: GameStart_Blueprint 컴파일
+[2015.10.06-18.22.45:855][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.45:855][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.45:856][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.45:856][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.45:856][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.45:856][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:043][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:043][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:044][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:044][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:044][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:044][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:148][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:149][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:149][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:149][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:149][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:149][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:150][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:150][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:150][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:150][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:151][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:151][576]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.46:154][576]BlueprintEditorCompileResults: 정보 [5192.35] GameStart_Blueprint 컴파일에 성공했습니다! [소요시간 310 ms]
+[2015.10.06-18.22.52:099][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.22.52:099][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.22.52:100][848]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:22:52)
+[2015.10.06-18.22.52:100][848]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.22.52:105][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005189s)
+[2015.10.06-18.22.52:106][848]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.22.52:106][848]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2015.10.06-18.22.52:106][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.006421s)
+[2015.10.06-18.22.52:155][848]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.22.52:160][848]LogInit: FAudioDevice initialized.
+[2015.10.06-18.22.52:202][848]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.22.52:204][848]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.22.52:206][848]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.52:206][848]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.22.52:206][848]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.22.52
+[2015.10.06-18.22.52:206][848]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.22.52:207][848]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.22.52:207][848]LogWorld: Bringing up level for play took: 0.003534
+[2015.10.06-18.22.52:209][848]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.607
+[2015.10.06-18.22.52:209][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.24.26:969][140]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.24.27:160][140]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.24.27:201][140]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E22AAAA20
+[2015.10.06-18.24.54:948][593]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LV_Main', cached variable property's owner is '/Script/Engine.PlayerController'
+[2015.10.06-18.25.15:811][622]BlueprintLog: New page: LV_Main 컴파일
+[2015.10.06-18.25.15:926][622]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LV_Main', cached variable property's owner is '/Script/Engine.PlayerController'
+[2015.10.06-18.25.15:927][622]BlueprintEditorCompileResults: 정보 [5342.13] LV_Main 컴파일에 성공했습니다! [소요시간 116 ms]
+[2015.10.06-18.25.15:951][622]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LV_Main', cached variable property's owner is '/Script/Engine.PlayerController'
+[2015.10.06-18.25.20:666][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-18.25.20:790][935]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LV_Main', cached variable property's owner is '/Script/Engine.PlayerController'
+[2015.10.06-18.25.20:876][935]LogSavePackage: Save=158.497803ms
+[2015.10.06-18.25.20:876][935]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_Main83A2AFC84E47C9E82D4E7C98A5DDB628.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-18.25.20:878][935]LogSavePackage: Total save time: 169.411402ms
+[2015.10.06-18.25.20:878][935]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-18.25.20:927][935]LogFileHelpers: Saving map 'LV_Main' took 0.356
+[2015.10.06-18.25.20:953][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewPhysicalMaterial" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/NewPhysicalMaterial.uasset" SILENT=true
+[2015.10.06-18.25.20:959][935]LogSavePackage: Save=3.918718ms
+[2015.10.06-18.25.20:959][935]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/NewPhysicalMaterialF3DA55804C53BCDD62942EBFF27E0BC6.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/NewPhysicalMaterial.uasset'
+[2015.10.06-18.25.20:960][935]LogSavePackage: Total save time: 5.513486ms
+[2015.10.06-18.25.20:960][935]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/NewPhysicalMaterial.uasset
+[2015.10.06-18.25.20:987][935]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LV_Main', cached variable property's owner is '/Script/Engine.PlayerController'
+[2015.10.06-18.25.27:845][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.25.27:845][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.25.27:845][305]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:25:27)
+[2015.10.06-18.25.27:845][305]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.25.27:851][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006006s)
+[2015.10.06-18.25.27:852][305]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.25.27:852][305]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2015.10.06-18.25.27:852][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.007247s)
+[2015.10.06-18.25.27:906][305]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E5AA92700
+[2015.10.06-18.25.27:906][305]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.25.27:911][305]LogInit: FAudioDevice initialized.
+[2015.10.06-18.25.27:955][305]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.25.27:958][305]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.25.27:960][305]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.27:960][305]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.27:960][305]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.25.27
+[2015.10.06-18.25.27:960][305]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.25.27:960][305]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.25.27:961][305]LogWorld: Bringing up level for play took: 0.003745
+[2015.10.06-18.25.27:963][305]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: -0.854
+[2015.10.06-18.25.27:963][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.25.34:577][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.25.34:850][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.25.34:893][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E42CD6020
+[2015.10.06-18.25.37:252][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:252][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:252][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:252][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:253][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:253][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:254][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:254][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:254][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:254][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:254][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.37:254][810]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.38:185][854]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.38:185][854]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_3.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.38:186][854]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.38:186][854]PIE:Warning: 경고 유효하지 않은 시뮬레이션 옵션: (GameStart_Blueprint_C_4.Box) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2015.10.06-18.25.38:205][854]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.10.06-18.25.39:402][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.25.39:453][927]LogSavePackage: Save=45.490551ms
+[2015.10.06-18.25.39:453][927]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_Blueprint45BFFF6946345D51551A46871724933A.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.25.39:454][927]LogSavePackage: Total save time: 50.994527ms
+[2015.10.06-18.25.39:454][927]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.25.40:018][963]BlueprintLog: New page: GameStart_Blueprint 컴파일
+[2015.10.06-18.25.40:685][963]BlueprintEditorCompileResults: 정보 [5366.89] GameStart_Blueprint 컴파일에 성공했습니다! [소요시간 666 ms]
+[2015.10.06-18.25.42:930][101]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.25.42:931][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.25.42:931][101]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:25:42)
+[2015.10.06-18.25.42:931][101]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.25.42:937][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005886s)
+[2015.10.06-18.25.42:938][101]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.25.42:938][101]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2015.10.06-18.25.42:938][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.007279s)
+[2015.10.06-18.25.42:988][101]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.25.42:993][101]LogInit: FAudioDevice initialized.
+[2015.10.06-18.25.43:034][101]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.25.43:036][101]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.25.43:038][101]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.25.43
+[2015.10.06-18.25.43:039][101]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.25.43:039][101]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.25.43:039][101]LogWorld: Bringing up level for play took: 0.003595
+[2015.10.06-18.25.43:041][101]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.225
+[2015.10.06-18.25.43:042][101]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.25.48:857][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.25.48:875][523]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LV_Main', cached variable property's owner is '/Script/Engine.PlayerController'
+[2015.10.06-18.25.49:054][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.25.49:099][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E1B583920
+[2015.10.06-18.26.09:068][814]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LV_Main', cached variable property's owner is '/Script/Engine.PlayerController'
+[2015.10.06-18.26.10:665][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-18.26.10:782][911]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'LV_Main', cached variable property's owner is '/Script/Engine.PlayerController'
+[2015.10.06-18.26.10:867][911]LogSavePackage: Save=155.549988ms
+[2015.10.06-18.26.10:867][911]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_MainBBCF918E49819B6CA624F1A9C7998C7F.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-18.26.10:868][911]LogSavePackage: Total save time: 161.324933ms
+[2015.10.06-18.26.10:868][911]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-18.26.10:917][911]LogFileHelpers: Saving map 'LV_Main' took 0.348
+[2015.10.06-18.26.10:943][911]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'LV_Main', cached variable property's owner is '/Script/Engine.PlayerController'
+[2015.10.06-18.27.00:821][791]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.27.10:207][365]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.27.10:214][365]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.27.10:222][365]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.27.10:264][365]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.28.04:130][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.28.04:201][590]LogSavePackage: Save=61.515751ms
+[2015.10.06-18.28.04:201][590]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_Blueprint794970C5493AB584012680BDF668C792.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.28.04:203][590]LogSavePackage: Total save time: 71.783185ms
+[2015.10.06-18.28.04:203][590]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.28.04:605][613]BlueprintLog: New page: GameStart_Blueprint 컴파일
+[2015.10.06-18.28.05:186][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E03039620
+[2015.10.06-18.28.05:187][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E3B0B40E0
+[2015.10.06-18.28.05:188][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E53B0F380
+[2015.10.06-18.28.05:197][613]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.28.05:199][613]BlueprintEditorCompileResults: 정보 [5511.40] GameStart_Blueprint 컴파일에 성공했습니다! [소요시간 593 ms]
+[2015.10.06-18.28.05:308][613]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.28.28:368][162]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.28.29:735][241]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'GameStart_Blueprint', cached variable property's owner is '/Game/GameStart_Blueprint.SKEL_GameStart_Blueprint_C'
+[2015.10.06-18.29.50:716][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewInterface" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/NewInterface.uasset" SILENT=true
+[2015.10.06-18.29.50:726][541]LogSavePackage: Save=7.920081ms
+[2015.10.06-18.29.50:726][541]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/NewInterface9F456FD54EBE399613886884FCFF46DD.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/NewInterface.uasset'
+[2015.10.06-18.29.50:728][541]LogSavePackage: Total save time: 9.623826ms
+[2015.10.06-18.29.50:728][541]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/NewInterface.uasset
+[2015.10.06-18.30.34:805][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E2249B9C0
+[2015.10.06-18.30.34:806][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E6E527240
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NewVar_1' or package '/Game/GameStart_Blueprint'.
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewBlueprint_C_1' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewBlueprint_C_0' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NewVar_1' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NewVar_1' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewFunctionLibrary_C_2' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewFunctionLibrary_C_3' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewInterface_C_268' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewInterface_C_267' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewFunctionLibrary_C_266' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:985][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewFunctionLibrary_C_265' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:986][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewInterface_C_4' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:986][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewBlueprint_C_264' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:986][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewInterface_C_5' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:986][154]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewBlueprint_C_263' or package '/Engine/Transient'.
+[2015.10.06-18.30.46:986][154]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.30.47:665][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E265B9EE0
+[2015.10.06-18.30.51:932][373]BlueprintLog: New page: GameStart_Blueprint 컴파일
+[2015.10.06-18.30.52:519][373]BlueprintEditorCompileResults: 정보 [5678.72] GameStart_Blueprint 컴파일에 성공했습니다! [소요시간 587 ms]
+[2015.10.06-18.30.53:406][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStart_Blueprint" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset" SILENT=true
+[2015.10.06-18.30.53:456][408]LogSavePackage: Save=44.856079ms
+[2015.10.06-18.30.53:456][408]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/GameStart_BlueprintFBEBA03D4F64A5F9277AD5BC891159D9.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset'
+[2015.10.06-18.30.53:458][408]LogSavePackage: Total save time: 50.522424ms
+[2015.10.06-18.30.53:458][408]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/GameStart_Blueprint.uasset
+[2015.10.06-18.30.55:328][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.30.55:328][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.06-18.30.55:328][549]PIE: New page: PIE 세션: LV_Main (2015. 10. 7. 오후 12:30:55)
+[2015.10.06-18.30.55:328][549]LogPlayLevel: Creating play world package: /Game/LV/UEDPIE_0_LV_Main
+[2015.10.06-18.30.55:334][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005914s)
+[2015.10.06-18.30.55:335][549]LogAIModule: Creating AISystem for world LV_Main
+[2015.10.06-18.30.55:335][549]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2015.10.06-18.30.55:335][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LV/LV_Main.LV_Main to /Game/LV/UEDPIE_0_LV_Main.LV_Main (0.007107s)
+[2015.10.06-18.30.55:384][549]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E11F947C0
+[2015.10.06-18.30.55:384][549]LogInit: XAudio2 using '스피커(VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.06-18.30.55:389][549]LogInit: FAudioDevice initialized.
+[2015.10.06-18.30.55:432][549]LogWorld: Game class is 'GameMode'
+[2015.10.06-18.30.55:435][549]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/3d_obj/place.place:BodySetup_2)
+[2015.10.06-18.30.55:436][549]LogWorld: Bringing World /Game/LV/UEDPIE_0_LV_Main.LV_Main up for play (max tick rate 0) at 2015.10.07-03.30.55
+[2015.10.06-18.30.55:436][549]LogActor:Warning: GameSession /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.30.55:436][549]LogActor:Warning: GameNetworkManager /Game/LV/UEDPIE_0_LV_Main.LV_Main:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.06-18.30.55:437][549]LogWorld: Bringing up level for play took: 0.003156
+[2015.10.06-18.30.55:439][549]PIE: 정보 /Game/LV/UEDPIE_0_LV_Main 에 대한 에디터에서 플레이 시작 시간: 0.623
+[2015.10.06-18.30.55:440][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.30.57:527][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.30.57:608][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LV/LV_Main.LV_Main:PersistentLevel' has LevelScriptBlueprint '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main' with GeneratedClass '/Game/LV/LV_Main.LV_Main_C' with ClassGeneratedBy '/Game/LV/LV_Main.LV_Main:PersistentLevel.LV_Main'
+[2015.10.06-18.30.57:647][756]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E641FF600
+[2015.10.06-18.31.04:801][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LV/LV_Main" FILE="D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.06-18.31.05:003][499]LogSavePackage: Save=152.160049ms
+[2015.10.06-18.31.05:003][499]LogSavePackage: Moving 'D:/GitHub/sinkhole/unreal/sinkhole/Saved/LV_Main9019BF9C40291B8DACD7B49FC0B3961E.tmp' to 'D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap'
+[2015.10.06-18.31.05:005][499]LogSavePackage: Total save time: 163.374618ms
+[2015.10.06-18.31.05:005][499]LogSavePackage:Warning: Finished SavePackage D:/GitHub/sinkhole/unreal/sinkhole/Content/LV/LV_Main.umap
+[2015.10.06-18.31.05:053][499]LogFileHelpers: Saving map 'LV_Main' took 0.347
+[2015.10.06-18.31.17:910][905]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2015.10.06-18.31.18:307][906]Cmd: QUIT_EDITOR
+[2015.10.06-18.31.19:314][906]LogExit: Preparing to exit.
+[2015.10.06-18.31.20:456][906]LogExit: Editor shut down
+[2015.10.06-18.31.20:457][906]LogExit: Transaction tracking system shut down
+[2015.10.06-18.31.20:459][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E568F8900
+[2015.10.06-18.31.20:460][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E50819D00
+[2015.10.06-18.31.20:460][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E6043F880
+[2015.10.06-18.31.20:460][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E50819080
+[2015.10.06-18.31.20:464][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E69FFB740
+[2015.10.06-18.31.20:464][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E50818FE0
+[2015.10.06-18.31.20:464][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E568F87C0
+[2015.10.06-18.31.20:776][906]LogExit: Object subsystem successfully closed.
+[2015.10.06-18.31.20:789][906]LogD3D11RHI: Shutdown
+[2015.10.06-18.31.20:789][906]LogD3D11RHI: CleanupD3DDevice
+[2015.10.06-18.31.20:917][906]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.06-18.31.20:951][906]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.10.06-18.31.20:951][906]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.06-18.31.20:951][906]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.06-18.31.20:951][906]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.06-18.31.20:951][906]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.06-18.31.20:951][906]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.06-18.31.20:969][906]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.06-18.31.20:969][906]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.06-18.31.20:969][906]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.06-18.31.20:970][906]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.06-18.31.20:971][906]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.06-18.31.20:971][906]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.06-18.31.20:971][906]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.06-18.31.20:971][906]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.06-18.31.21:162][906]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.06-18.31.21:162][906]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.06-18.31.21:162][906]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.06-18.31.21:162][906]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.06-18.31.21:162][906]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.06-18.31.21:162][906]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.06-18.31.21:162][906]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.06-18.31.21:163][906]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.06-18.31.21:164][906]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.06-18.31.21:164][906]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.06-18.31.21:164][906]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.06-18.31.21:164][906]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.06-18.31.21:165][906]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.06-18.31.21:165][906]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.06-18.31.21:165][906]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.06-18.31.21:165][906]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.06-18.31.21:165][906]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.06-18.31.21:165][906]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.06-18.31.21:165][906]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.06-18.31.21:165][906]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.06-18.31.21:165][906]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.06-18.31.21:166][906]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.06-18.31.21:166][906]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.06-18.31.21:166][906]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.06-18.31.21:166][906]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.06-18.31.21:166][906]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.06-18.31.21:171][906]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.06-18.31.21:171][906]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.06-18.31.21:171][906]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.06-18.31.21:171][906]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.06-18.31.21:172][906]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.06-18.31.21:172][906]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.06-18.31.21:172][906]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.06-18.31.21:172][906]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.06-18.31.21:172][906]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.06-18.31.21:172][906]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.06-18.31.21:172][906]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.06-18.31.21:172][906]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.06-18.31.21:172][906]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.06-18.31.21:172][906]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.06-18.31.21:218][906]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.06-18.31.21:218][906]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.06-18.31.21:218][906]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.06-18.31.21:218][906]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.06-18.31.21:218][906]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.06-18.31.21:219][906]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.06-18.31.21:219][906]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.06-18.31.21:219][906]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.06-18.31.21:251][906]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.06-18.31.21:251][906]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.06-18.31.21:251][906]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.06-18.31.21:251][906]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.06-18.31.21:252][906]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.06-18.31.21:253][906]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.06-18.31.21:254][906]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.06-18.31.21:258][906]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.06-18.31.21:388][906]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.06-18.31.21:389][906]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.06-18.31.21:389][906]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.06-18.31.21:490][906]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.06-18.31.21:490][906]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.06-18.31.21:490][906]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.06-18.31.21:493][906]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.06-18.31.21:493][906]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.06-18.31.21:493][906]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.06-18.31.21:493][906]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.06-18.31.21:493][906]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.06-18.31.21:493][906]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.06-18.31.21:493][906]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.06-18.31.21:493][906]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.06-18.31.21:494][906]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.06-18.31.21:494][906]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.06-18.31.21:494][906]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.06-18.31.21:494][906]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.06-18.31.21:494][906]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.06-18.31.21:494][906]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.06-18.31.21:494][906]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.06-18.31.21:494][906]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.06-18.31.21:497][906]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.06-18.31.21:497][906]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.06-18.31.21:497][906]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.06-18.31.21:497][906]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.06-18.31.21:497][906]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.06-18.31.21:497][906]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.06-18.31.21:497][906]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.06-18.31.21:497][906]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.06-18.31.21:497][906]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.06-18.31.21:497][906]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.06-18.31.21:498][906]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.06-18.31.21:502][906]LogDerivedDataCache: Shutdown
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.06-18.31.21:502][906]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.06-18.31.21:503][906]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.06-18.31.21:503][906]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.06-18.31.22:505][906]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.06-18.31.22:505][906]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.06-18.31.22:506][906]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.06-18.31.22:506][906]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.06-18.31.22:506][906]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.06-18.31.22:506][906]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.06-18.31.22:534][906]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.06-18.31.22:534][906]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.06-18.31.22:534][906]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.06-18.31.22:534][906]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.06-18.31.22:534][906]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.06-18.31.22:534][906]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.06-18.31.22:534][906]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.06-18.31.22:534][906]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.06-18.31.22:534][906]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.06-18.31.22:534][906]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.06-18.31.22:537][906]LogExit: Exiting.
+[2015.10.06-18.31.22:574][906]Log file closed, 10/07/15 03:31:22
