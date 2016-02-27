@@ -1,0 +1,1234 @@
+﻿[2016.02.23-07.04.58:040][  0]Log file open, 02/23/16 16:04:58
+[2016.02.23-07.04.58:040][  0]LogInit:Display: Running engine for game: sinkhole
+[2016.02.23-07.04.58:040][  0]LogInit:Display: RandInit(-1221610010) SRandInit(-1221610010).
+[2016.02.23-07.04.58:040][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.23-07.04.58:040][  0]LogStats: Stats thread started at 0.070309
+[2016.02.23-07.04.58:040][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.02.23-07.04.58:040][  0]LogInit: API Version: 2672455
+[2016.02.23-07.04.58:040][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.02.23-07.04.58:040][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.02.23-07.04.58:040][  0]LogInit: Build Configuration: Development
+[2016.02.23-07.04.58:040][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.02.23-07.04.58:040][  0]LogInit: Command line:  
+[2016.02.23-07.04.58:040][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.02.23-07.04.58:040][  0]LogInit: Rocket: 1
+[2016.02.23-07.04.58:047][  0]LogInit: Using libcurl 7.41.0
+[2016.02.23-07.04.58:047][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.23-07.04.58:047][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.23-07.04.58:047][  0]LogInit:  - other features:
+[2016.02.23-07.04.58:047][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.23-07.04.58:047][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.23-07.04.58:047][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.23-07.04.58:047][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.23-07.04.58:047][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.23-07.04.58:047][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.23-07.04.58:047][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.23-07.04.58:047][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.23-07.04.58:047][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.23-07.04.58:047][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.23-07.04.58:052][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.23-07.04.58:058][  0]LogInit: Object subsystem initialized
+[2016.02.23-07.04.58:059][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.23-07.04.58:059][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.23-07.04.58:068][  0]LogInit: Computer: DESKTOP-70OGJMP
+[2016.02.23-07.04.58:068][  0]LogInit: User: Dongryong
+[2016.02.23-07.04.58:068][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.23-07.04.58:068][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2016.02.23-07.04.58:068][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.23-07.04.58:068][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.23-07.04.58:068][  0]LogMemory: Process Physical Memory: 54.05 MB used, 54.05 MB peak
+[2016.02.23-07.04.58:068][  0]LogMemory: Process Virtual Memory: 57.21 MB used, 57.21 MB peak
+[2016.02.23-07.04.58:068][  0]LogMemory: Physical Memory: 2084.93 MB used, 8128.42 MB total
+[2016.02.23-07.04.58:068][  0]LogMemory: Virtual Memory: 370.24 MB used, 134217728.00 MB total
+[2016.02.23-07.04.58:095][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.02.23-07.04.58:147][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.02.23-07.04.58:147][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.02.23-07.04.58:147][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.02.23-07.04.58:361][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.02.23-07.04.58:361][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 4064MB of shared system memory, 2 output[s]
+[2016.02.23-07.04.58:361][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.23-07.04.58:362][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4064MB of shared system memory, 0 output[s]
+[2016.02.23-07.04.58:362][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.23-07.04.58:364][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.23-07.04.58:364][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.23-07.04.58:376][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.23-07.04.58:391][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Intermediate/Shaders/WorkingDirectory/2452/).
+[2016.02.23-07.04.58:391][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Intermediate/Shaders/tmp/E1B6104946B3FB3769A2898B57C8CE08/'.
+[2016.02.23-07.04.58:391][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.23-07.04.59:186][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.23-07.04.59:191][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.23-07.04.59:195][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.23-07.04.59:199][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.23-07.04.59:203][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.23-07.04.59:206][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.23-07.04.59:209][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.23-07.04.59:212][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.23-07.04.59:215][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.23-07.04.59:218][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.23-07.04.59:221][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.23-07.04.59:223][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.23-07.04.59:224][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.23-07.04.59:239][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.23-07.04.59:242][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.23-07.04.59:245][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.23-07.04.59:248][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.23-07.04.59:248][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.23-07.04.59:311][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.23-07.04.59:349][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Dongryong/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.02.23-07.04.59:349][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dongryong/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.02.23-07.04.59:349][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.23-07.04.59:350][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.23-07.04.59:350][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.23-07.04.59:350][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.23-07.04.59:453][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.23-07.04.59:465][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dongryong/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.23-07.04.59:590][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.23-07.04.59:592][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.23-07.04.59:682][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.23-07.04.59:682][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.23-07.04.59:864][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.23-07.05.00:397][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.23-07.05.00:499][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.02.23-07.05.00:627][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.02.23-07.05.00:628][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.02.23-07.05.00:635][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.02.23-07.05.00:643][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.02.23-07.05.00:752][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.23-07.05.00:811][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.02.23-07.05.00:811][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.02.23-07.05.00:859][  0]LogEngine: Initializing Engine...
+[2016.02.23-07.05.00:860][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.02.23-07.05.00:860][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.23-07.05.00:964][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.23-07.05.00:968][  0]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.23-07.05.00:974][  0]LogInit: FAudioDevice initialized.
+[2016.02.23-07.05.00:997][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Dongryong/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.02.23-07.05.01:002][  0]LogInit: Texture streaming: Enabled
+[2016.02.23-07.05.01:007][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.23-07.05.01:007][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.02.23-07.05.01:007][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 97934eac4ce13756478434a4035092bd|ec8005ed97f24ee4b5ae2bc5abfe5161|de49a48b-df9f-4826-ad95-f3e39209a164
+[2016.02.23-07.05.01:007][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.23-07.05.01:016][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.02.23-07.05.01:032][  0]LogInit: Transaction tracking system initialized
+[2016.02.23-07.05.01:056][  0]BlueprintLog: New page: 에디터 로드
+[2016.02.23-07.05.01:370][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.02.23-07.05.01:436][  0]LogConsoleResponse:Display: 
+[2016.02.23-07.05.01:530][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.23-07.05.01:574][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/' took 0.02s
+[2016.02.23-07.05.01:578][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.02.23-07.05.01:579][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.23-07.05.01:583][  0]LightingResults: New page: 라이팅 빌드
+[2016.02.23-07.05.01:585][  0]MapCheck: New page: 맵 체크
+[2016.02.23-07.05.01:585][  0]LightingResults: New page: 라이팅 빌드
+[2016.02.23-07.05.01:595][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023BF00123E0
+[2016.02.23-07.05.02:160][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.02.23-07.05.02:164][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.23-07.05.02:168][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.23-07.05.02:202][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 34.09ms.
+[2016.02.23-07.05.02:202][  0]LogFileHelpers: Loading map 'Template_Default' took 0.624
+[2016.02.23-07.05.02:281][  0]LogCollectionManager: Loaded 0 collections in 0.001701 seconds
+[2016.02.23-07.05.02:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/Collections/' took 0.01s
+[2016.02.23-07.05.02:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/Developers/Dongryong/Collections/' took 0.01s
+[2016.02.23-07.05.02:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/Collections/' took 0.01s
+[2016.02.23-07.05.02:319][  0]LogContentBrowser: Native class hierarchy populated in 0.0057 seconds. Added 1868 classes and 336 folders.
+[2016.02.23-07.05.02:327][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.02.23-07.05.02:335][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.23-07.05.02:364][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.02.23-07.05.02:368][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.02.23-07.05.02:440][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.23-07.05.02:444][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.02.23-07.05.02:465][  0]LogLoad: Full Startup: 4.86 seconds (BP compile: 0.03 seconds)
+[2016.02.23-07.05.02:752][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.23-07.05.02:883][  0]LogRenderer: Reallocating scene render targets to support 1020x704 (Frame:2).
+[2016.02.23-07.05.03:121][  3]LogAssetRegistry: Asset discovery search completed in 2.6323 seconds
+[2016.02.23-07.05.03:121][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.23-07.05.03:121][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.02.23-07.05.10:201][743]LogAIModule: Creating AISystem for world CreateMap
+[2016.02.23-07.05.10:260][743]Cmd: MAP LOAD FILE="../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.23-07.05.10:260][743]LightingResults: New page: 라이팅 빌드
+[2016.02.23-07.05.10:271][743]LoadErrors: New page: 맵 로드중: CreateMap.umap
+[2016.02.23-07.05.10:272][743]MapCheck: New page: 맵 체크
+[2016.02.23-07.05.10:272][743]LightingResults: New page: 라이팅 빌드
+[2016.02.23-07.05.10:283][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023BE168E660
+[2016.02.23-07.05.10:337][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.23-07.05.10:360][743]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.23-07.05.10:415][743]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 54.716ms.
+[2016.02.23-07.05.10:415][743]LogFileHelpers: Loading map 'CreateMap' took 0.156
+[2016.02.23-07.05.32:690][368]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.05.32:690][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.05.32:691][368]PIE: New page: PIE 세션: CreateMap (2016. 2. 24. 오전 1:05:32)
+[2016.02.23-07.05.32:691][368]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap
+[2016.02.23-07.05.32:778][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087325s)
+[2016.02.23-07.05.32:779][368]LogAIModule: Creating AISystem for world CreateMap
+[2016.02.23-07.05.32:780][368]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2016.02.23-07.05.32:780][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/CreateMap.CreateMap to /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap (0.089269s)
+[2016.02.23-07.05.32:795][368]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.23-07.05.32:800][368]LogInit: FAudioDevice initialized.
+[2016.02.23-07.05.32:846][368]LogWorld: Game class is 'GameMode'
+[2016.02.23-07.05.32:905][368]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap up for play (max tick rate 0) at 2016.02.23-16.05.32
+[2016.02.23-07.05.32:905][368]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.05.32:905][368]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.05.32:907][368]LogWorld: Bringing up level for play took: 0.059262
+[2016.02.23-07.05.32:910][368]PIE: 정보 /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap 에 대한 에디터에서 플레이 시작 시간: -0.261
+[2016.02.23-07.05.32:910][368]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.06.00:669][693]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.06.00:706][693]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.06.00:721][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023BF0480720
+[2016.02.23-07.06.08:244][530]LogAIModule: Creating AISystem for world EP1
+[2016.02.23-07.06.08:259][530]Cmd: MAP LOAD FILE="../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.23-07.06.08:259][530]LightingResults: New page: 라이팅 빌드
+[2016.02.23-07.06.08:271][530]LoadErrors: New page: 맵 로드중: EP1.umap
+[2016.02.23-07.06.08:274][530]MapCheck: New page: 맵 체크
+[2016.02.23-07.06.08:274][530]LightingResults: New page: 라이팅 빌드
+[2016.02.23-07.06.08:286][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023BE3424180
+[2016.02.23-07.06.15:445][530]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.23-07.06.15:471][530]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.23-07.06.15:587][530]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 115.879ms.
+[2016.02.23-07.06.15:587][530]LogFileHelpers: Loading map 'EP1' took 7.328
+[2016.02.23-07.06.15:649][531]Cmd: UpdateLandscapeEditorData -warnings
+[2016.02.23-07.11.46:986][480]Cmd: MODE GRID=0
+[2016.02.23-07.11.47:946][539]Cmd: MODE GRID=1
+[2016.02.23-07.13.32:228][702]Cmd: DELETE
+[2016.02.23-07.13.32:228][702]Cmd: ACTOR DELETE
+[2016.02.23-07.13.32:234][702]LogEditorActor: Deleted Actor: Brush
+[2016.02.23-07.13.32:235][702]LogEditorActor: Deleted Actor: Brush
+[2016.02.23-07.13.32:235][702]LogEditorActor: Deleted Actor: Brush
+[2016.02.23-07.13.32:235][702]LogEditorActor: Deleted Actor: Brush
+[2016.02.23-07.13.32:235][702]LogEditorActor: Deleted Actor: Brush
+[2016.02.23-07.13.32:270][702]LogEditorActor: Deleted 5 Actors (0.041 secs)
+[2016.02.23-07.13.47:868][676]LogSavePackage: Save=4863.067383ms
+[2016.02.23-07.13.47:868][676]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/EP179DE57404F24A12E81F571814AC4375C.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap'
+[2016.02.23-07.13.47:893][676]LogSavePackage: Total save time: 5838.016350ms
+[2016.02.23-07.13.47:893][676]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap
+[2016.02.23-07.13.47:927][676]LogFileHelpers: Saving map 'EP1' took 6.016
+[2016.02.23-07.13.49:121][676]LogSavePackage: Save=721.142761ms
+[2016.02.23-07.13.49:121][676]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/CreateMap0D4D157A4D242E78D97F658CE2023EBC.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap'
+[2016.02.23-07.13.49:132][676]LogSavePackage: Total save time: 1069.738045ms
+[2016.02.23-07.13.49:132][676]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap
+[2016.02.23-07.13.49:133][676]LogFileHelpers: Saving map 'CreateMap' took 1.205
+[2016.02.23-07.13.49:364][676]LogSavePackage: Save=27.162733ms
+[2016.02.23-07.13.49:364][676]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/VolumeAndRefMapE6ABA4774BFC1AC44FA56FADD38F0305.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/MAPLV/VolumeAndRefMap.umap'
+[2016.02.23-07.13.49:367][676]LogSavePackage: Total save time: 93.367558ms
+[2016.02.23-07.13.49:367][676]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/MAPLV/VolumeAndRefMap.umap
+[2016.02.23-07.13.49:369][676]LogFileHelpers: Saving map 'VolumeAndRefMap' took 0.235
+[2016.02.23-07.14.23:231][845]LogEditorActor: Deleted Actor: AtmosphericFog
+[2016.02.23-07.14.23:250][845]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.02.23-07.14.36:468][211]LogEditorActor: Deleted Actor: DirectionalLight
+[2016.02.23-07.14.36:481][211]LogEditorActor: Deleted 1 Actors (1.772 secs)
+[2016.02.23-07.14.45:740][314]LogEditorActor: Deleted Actor: SkyLight
+[2016.02.23-07.14.45:754][314]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.02.23-07.15.52:316][208]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2016.02.23-07.15.52:330][208]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.02.23-07.16.06:561][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.16.06:561][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.16.06:561][888]PIE: New page: PIE 세션: EP1 (2016. 2. 24. 오전 1:16:06)
+[2016.02.23-07.16.06:561][888]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/UEDPIE_0_EP1
+[2016.02.23-07.16.06:579][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018162s)
+[2016.02.23-07.16.06:580][888]LogAIModule: Creating AISystem for world EP1
+[2016.02.23-07.16.06:580][888]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2016.02.23-07.16.06:580][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/EP1.EP1 to /Game/FirstPersonBP/UEDPIE_0_EP1.EP1 (0.019342s)
+[2016.02.23-07.16.06:599][888]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.23-07.16.06:604][888]LogInit: FAudioDevice initialized.
+[2016.02.23-07.16.06:646][888]LogWorld: Game class is 'GameMode'
+[2016.02.23-07.16.06:675][888]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/BuildingMap.BuildingMap to /Game/MAPLV/UEDPIE_0_BuildingMap.BuildingMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.06:811][888]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/FloorAndActMap.FloorAndActMap to /Game/MAPLV/UEDPIE_0_FloorAndActMap.FloorAndActMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.06:901][888]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/BGMap.BGMap to /Game/MAPLV/UEDPIE_0_BGMap.BGMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.06:928][888]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/VolumeAndRefMap.VolumeAndRefMap to /Game/MAPLV/UEDPIE_0_VolumeAndRefMap.VolumeAndRefMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.06:938][888]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.23-07.16.06:938][888]LogWorld: Bringing World /Game/FirstPersonBP/UEDPIE_0_EP1.EP1 up for play (max tick rate 0) at 2016.02.23-16.16.06
+[2016.02.23-07.16.06:938][888]LogActor:Warning: GameSession /Game/FirstPersonBP/UEDPIE_0_EP1.EP1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.16.06:938][888]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/UEDPIE_0_EP1.EP1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.16.06:940][888]LogWorld: Bringing up level for play took: 0.003877
+[2016.02.23-07.16.06:942][888]PIE: 정보 /Game/FirstPersonBP/UEDPIE_0_EP1 에 대한 에디터에서 플레이 시작 시간: -0.228
+[2016.02.23-07.16.06:943][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.16.08:716][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.16.08:750][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.16.08:776][ 92]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023C330E5580
+[2016.02.23-07.16.12:322][391]LogSavePackage: Save=683.667053ms
+[2016.02.23-07.16.12:322][391]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/CreateMap1C5E30A143D4E374481FF5AE0FD196A9.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap'
+[2016.02.23-07.16.12:326][391]LogSavePackage: Total save time: 688.515101ms
+[2016.02.23-07.16.12:326][391]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap
+[2016.02.23-07.16.18:187][497]LogSavePackage: Save=3291.656250ms
+[2016.02.23-07.16.18:187][497]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/EP1C0F9032049B22D5A891E139624CFC7DF.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap'
+[2016.02.23-07.16.18:208][497]LogSavePackage: Total save time: 3313.665707ms
+[2016.02.23-07.16.18:208][497]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap
+[2016.02.23-07.16.18:232][497]LogFileHelpers: Saving map 'EP1' took 3.475
+[2016.02.23-07.16.19:051][497]LogSavePackage: Save=683.227722ms
+[2016.02.23-07.16.19:051][497]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/CreateMapD51134164A8A7C9F56255390981A8EB1.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap'
+[2016.02.23-07.16.19:053][497]LogSavePackage: Total save time: 687.293392ms
+[2016.02.23-07.16.19:053][497]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap
+[2016.02.23-07.16.19:055][497]LogFileHelpers: Saving map 'CreateMap' took 0.820
+[2016.02.23-07.16.19:217][497]LogSavePackage: Save=25.282696ms
+[2016.02.23-07.16.19:217][497]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/VolumeAndRefMapEC6992F74A30B36FCE387EB6325C9E45.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/MAPLV/VolumeAndRefMap.umap'
+[2016.02.23-07.16.19:220][497]LogSavePackage: Total save time: 28.513342ms
+[2016.02.23-07.16.19:220][497]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/MAPLV/VolumeAndRefMap.umap
+[2016.02.23-07.16.19:221][497]LogFileHelpers: Saving map 'VolumeAndRefMap' took 0.164
+[2016.02.23-07.16.21:343][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.16.21:343][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.16.21:343][748]PIE: New page: PIE 세션: EP1 (2016. 2. 24. 오전 1:16:21)
+[2016.02.23-07.16.21:343][748]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/UEDPIE_0_EP1
+[2016.02.23-07.16.21:359][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015511s)
+[2016.02.23-07.16.21:360][748]LogAIModule: Creating AISystem for world EP1
+[2016.02.23-07.16.21:360][748]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2016.02.23-07.16.21:360][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/EP1.EP1 to /Game/FirstPersonBP/UEDPIE_0_EP1.EP1 (0.016567s)
+[2016.02.23-07.16.21:376][748]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.23-07.16.21:380][748]LogInit: FAudioDevice initialized.
+[2016.02.23-07.16.21:422][748]LogWorld: Game class is 'GameMode'
+[2016.02.23-07.16.21:451][748]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/BuildingMap.BuildingMap to /Game/MAPLV/UEDPIE_0_BuildingMap.BuildingMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.21:568][748]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/FloorAndActMap.FloorAndActMap to /Game/MAPLV/UEDPIE_0_FloorAndActMap.FloorAndActMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.21:659][748]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/BGMap.BGMap to /Game/MAPLV/UEDPIE_0_BGMap.BGMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.21:684][748]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/VolumeAndRefMap.VolumeAndRefMap to /Game/MAPLV/UEDPIE_0_VolumeAndRefMap.VolumeAndRefMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.21:771][748]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/CreateMap.CreateMap to /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.21:836][748]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.23-07.16.21:836][748]LogWorld: Bringing World /Game/FirstPersonBP/UEDPIE_0_EP1.EP1 up for play (max tick rate 0) at 2016.02.23-16.16.21
+[2016.02.23-07.16.21:836][748]LogActor:Warning: GameSession /Game/FirstPersonBP/UEDPIE_0_EP1.EP1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.16.21:836][748]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/UEDPIE_0_EP1.EP1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.16.21:837][748]LogWorld: Bringing up level for play took: 0.003352
+[2016.02.23-07.16.21:839][748]PIE: 정보 /Game/FirstPersonBP/UEDPIE_0_EP1 에 대한 에디터에서 플레이 시작 시간: 0.668
+[2016.02.23-07.16.21:840][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.16.51:338][342]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.16.51:457][342]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.16.51:508][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023B85149580
+[2016.02.23-07.16.56:596][944]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.16.56:596][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.16.56:596][944]PIE: New page: PIE 세션: EP1 (2016. 2. 24. 오전 1:16:56)
+[2016.02.23-07.16.56:596][944]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/UEDPIE_0_EP1
+[2016.02.23-07.16.56:612][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016093s)
+[2016.02.23-07.16.56:613][944]LogAIModule: Creating AISystem for world EP1
+[2016.02.23-07.16.56:613][944]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2016.02.23-07.16.56:613][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/EP1.EP1 to /Game/FirstPersonBP/UEDPIE_0_EP1.EP1 (0.017022s)
+[2016.02.23-07.16.56:629][944]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.23-07.16.56:633][944]LogInit: FAudioDevice initialized.
+[2016.02.23-07.16.56:671][944]LogWorld: Game class is 'GameMode'
+[2016.02.23-07.16.56:700][944]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/BuildingMap.BuildingMap to /Game/MAPLV/UEDPIE_0_BuildingMap.BuildingMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.56:818][944]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/FloorAndActMap.FloorAndActMap to /Game/MAPLV/UEDPIE_0_FloorAndActMap.FloorAndActMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.56:909][944]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/BGMap.BGMap to /Game/MAPLV/UEDPIE_0_BGMap.BGMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.56:933][944]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/VolumeAndRefMap.VolumeAndRefMap to /Game/MAPLV/UEDPIE_0_VolumeAndRefMap.VolumeAndRefMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.56:996][944]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/CreateMap.CreateMap to /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.16.57:060][944]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.23-07.16.57:060][944]LogWorld: Bringing World /Game/FirstPersonBP/UEDPIE_0_EP1.EP1 up for play (max tick rate 0) at 2016.02.23-16.16.57
+[2016.02.23-07.16.57:060][944]LogActor:Warning: GameSession /Game/FirstPersonBP/UEDPIE_0_EP1.EP1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.16.57:060][944]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/UEDPIE_0_EP1.EP1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.16.57:061][944]LogWorld: Bringing up level for play took: 0.003455
+[2016.02.23-07.16.57:063][944]PIE: 정보 /Game/FirstPersonBP/UEDPIE_0_EP1 에 대한 에디터에서 플레이 시작 시간: -0.108
+[2016.02.23-07.16.57:063][944]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.17.16:316][219]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.17.16:407][219]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.17.16:468][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023BBAD3C400
+[2016.02.23-07.18.45:399][518]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.18.45:399][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.18.45:399][518]PIE: New page: PIE 세션: EP1 (2016. 2. 24. 오전 1:18:45)
+[2016.02.23-07.18.45:400][518]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/UEDPIE_0_EP1
+[2016.02.23-07.18.45:415][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014994s)
+[2016.02.23-07.18.45:415][518]LogAIModule: Creating AISystem for world EP1
+[2016.02.23-07.18.45:415][518]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2016.02.23-07.18.45:416][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/EP1.EP1 to /Game/FirstPersonBP/UEDPIE_0_EP1.EP1 (0.016044s)
+[2016.02.23-07.18.45:604][518]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.23-07.18.45:609][518]LogInit: FAudioDevice initialized.
+[2016.02.23-07.18.45:654][518]LogWorld: Game class is 'GameMode'
+[2016.02.23-07.18.45:700][518]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/BuildingMap.BuildingMap to /Game/MAPLV/UEDPIE_0_BuildingMap.BuildingMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.18.45:836][518]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/FloorAndActMap.FloorAndActMap to /Game/MAPLV/UEDPIE_0_FloorAndActMap.FloorAndActMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.18.45:946][518]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/BGMap.BGMap to /Game/MAPLV/UEDPIE_0_BGMap.BGMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.18.45:977][518]LogWorld: PIE: Copying PIE streaming level from /Game/MAPLV/VolumeAndRefMap.VolumeAndRefMap to /Game/MAPLV/UEDPIE_0_VolumeAndRefMap.VolumeAndRefMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.18.46:039][518]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonBP/Maps/CreateMap.CreateMap to /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap. OwningWorld: /Game/FirstPersonBP/UEDPIE_0_EP1.EP1
+[2016.02.23-07.18.46:095][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame3"
+[2016.02.23-07.18.46:095][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame4"
+[2016.02.23-07.18.46:095][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame5"
+[2016.02.23-07.18.46:095][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame6"
+[2016.02.23-07.18.46:095][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame7"
+[2016.02.23-07.18.46:095][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame8"
+[2016.02.23-07.18.46:095][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame9"
+[2016.02.23-07.18.46:095][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame10"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "PostProcessVolume /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.PostProcessVolume_1"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame11"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame12"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame13"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame14"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame15"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame16"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame17"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시28"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame18"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow_99"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing_4"
+[2016.02.23-07.18.46:096][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing2"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing3"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing4"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing5"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing6"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing7"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing8"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing9"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing10"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing11"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing12"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing13"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing14"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing15"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Paper_Screen_Patchwork_BY_Moooi_7"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Paper_Screen_Patchwork_BY_Moooi2"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x400_45"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x401"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.오른쪽계단위sub"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.왼쪽계단위sub"
+[2016.02.23-07.18.46:097][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.오른쪽2층sub"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.오른쪽2층sub2"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame19_31"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시30_27"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame20_32"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시31_28"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame21_33"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시32_29"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame22_34"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시33_30"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame23_35"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시34_31"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame24_36"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시35_32"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame25_37"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시36_33"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame26_38"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시37_34"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame27_39"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시38_35"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame28_40"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시39_36"
+[2016.02.23-07.18.46:098][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame29_41"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시40_37"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame30_42"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시41_38"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame31_43"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시42_39"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame32_44"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시43_40"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame33_45"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시44_41"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame34_46"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시45_42"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow2_4"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow3"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow4"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow5"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow6"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow7"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow8"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow9"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow10"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow11"
+[2016.02.23-07.18.46:099][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow12"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow13"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow14"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow15"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow16"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow17"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow18"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow19"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow20"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow21"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow22"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow23"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow24"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow25"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow26"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow27"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow28"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow29"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow30"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow31"
+[2016.02.23-07.18.46:100][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow32"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow33"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame35"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame36"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow34"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow35"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "SphereReflectionCapture /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SphereReflectionCapture2"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x402"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x403"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.오른쪽계단위sub2"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight_3"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight2"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame37"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame38"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow36"
+[2016.02.23-07.18.46:101][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow37"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight3"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight4"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame39"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame40"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame41"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame42"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame43"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame44"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame45"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame46"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame47"
+[2016.02.23-07.18.46:102][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame48"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시60"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame49"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시61"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame50"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시62"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame51"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시63"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame52"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시64"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame53"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시65"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame54"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시66"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow38"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow39"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow40"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow41"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow42"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow43"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow44"
+[2016.02.23-07.18.46:103][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow45"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow46"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow47"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow48"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow49"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow50"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow51"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow52"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow53"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame55"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시67"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame56"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시68"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame57"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시69"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame58"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시70"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame59"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시71"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame60"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시72"
+[2016.02.23-07.18.46:104][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame61"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시73"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame62"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시74"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame63"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시75"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame64"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시76"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame65"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시77"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame66"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시78"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame67"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시79"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame68"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시80"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame69"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시81"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame70"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시82"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow54"
+[2016.02.23-07.18.46:105][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow55"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow56"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow57"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow58"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow59"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow60"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow61"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow62"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow63"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow64"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow65"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow66"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow67"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow68"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow69"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing16"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing17"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing18"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing19"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing20"
+[2016.02.23-07.18.46:106][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing21"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing22"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing23"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing24"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing25"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing26"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing27"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing28"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing29"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Railing30"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.오른쪽계단위sub3"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.LinearStair브러시7"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight5"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame71"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시83"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame72"
+[2016.02.23-07.18.46:107][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시84"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame73"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시85"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame74"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시86"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame75"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시87"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame76"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시88"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame77"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시89"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame78"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시90"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame79"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시91"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame80"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시92"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame81"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시93"
+[2016.02.23-07.18.46:108][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame82"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시94"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame83"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시95"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame84"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시96"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame85"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시97"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame86"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시98"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow70"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow71"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow72"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow73"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow74"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow75"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow76"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow77"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow78"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow79"
+[2016.02.23-07.18.46:109][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow80"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow81"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow82"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow83"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow84"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow85"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.오른쪽2층sub3_22"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.오른쪽2층sub4_23"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame87"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시99"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame88"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시100"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame89"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시101"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame90"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시102"
+[2016.02.23-07.18.46:110][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame91"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시103"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame92"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시104"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame93"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시105"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame94"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시106"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame95"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시107"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame96"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시108"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame97"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시109"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame98"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시110"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame99"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시111"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame100"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시112"
+[2016.02.23-07.18.46:111][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame101"
+[2016.02.23-07.18.46:112][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시113"
+[2016.02.23-07.18.46:112][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_WindowFrame102"
+[2016.02.23-07.18.46:112][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시114"
+[2016.02.23-07.18.46:112][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow86"
+[2016.02.23-07.18.46:112][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow87"
+[2016.02.23-07.18.46:112][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow88"
+[2016.02.23-07.18.46:112][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow89"
+[2016.02.23-07.18.46:112][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow90"
+[2016.02.23-07.18.46:112][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow91"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow92"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow93"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow94"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow95"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow96"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow97"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow98"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow99"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow100"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow101"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.LinearStair브러시9"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.오른쪽계단위sub4"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.LinearStair브러시10"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.LinearStair브러시11"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.LinearStair브러시12"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight6"
+[2016.02.23-07.18.46:113][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight7"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight8"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight9"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight10"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight11"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight12"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight13"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight14"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight15"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight16"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight17"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight18"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight19"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight20"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight21"
+[2016.02.23-07.18.46:114][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight22"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight23"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight24"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight25"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight26"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight27"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight28"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight29"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight30"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight31"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight32"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight33"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight34"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight35"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight36"
+[2016.02.23-07.18.46:115][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight37"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight38"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight39"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight40"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight41"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight42"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight43"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight44"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight45"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight46"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight47"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight48"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight49"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight50"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight51"
+[2016.02.23-07.18.46:116][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight52"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight53"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight54"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight55"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight56"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight57"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight58"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight59"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "Brush /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Box브러시_55"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x404"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x405"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x406"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Curtain_103"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Curtain2"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Curtain3"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Wire3"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Curtain4"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Wire4"
+[2016.02.23-07.18.46:117][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_TableRound_127"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Chair_130"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Chair2_133"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Chair3_136"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Lamp_Ceiling_139"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Lamp_Ceiling2"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.wooden_clock_143"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Mug_146"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_FloorLamp_155"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP_171"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_RoundCeilingLight_174"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving_177"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving2"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving3"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving4"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving5"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving6"
+[2016.02.23-07.18.46:118][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP2_186"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP3"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP4"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP5"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP6"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP7"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP8"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP9"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP10_200"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP11_203"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP12_206"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP13_209"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP14_212"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP15_215"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP16"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP17"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP18"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP19"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP20"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP21"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP28"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP29"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP30"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP31"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP32"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP33"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP34"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP35"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP36"
+[2016.02.23-07.18.46:119][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP37"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP44"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP45"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP46"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP47"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP48"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP49"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving7"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP22_257"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP23_258"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP24_259"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP38_264"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP39_265"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP40_266"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP41_267"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving8"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving9"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP25_273"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP26_275"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP27_277"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP42_283"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP43_287"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP50_298"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP51"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP52"
+[2016.02.23-07.18.46:120][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP54"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP55"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP57"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP58"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP59"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP60"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP61"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP62"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP63"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP64"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP65"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP66"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP67"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP68"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP69"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP70"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP71"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP72"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP73"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP74"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP75"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP76"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP77"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP78"
+[2016.02.23-07.18.46:121][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP79"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP80"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP81"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP82"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP83"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP84"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP85"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP86"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Statue_337"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch_365"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch2"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch3"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch4"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CoffeeTable_372"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_TV_375"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_DeskLamp_378"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Vase_384"
+[2016.02.23-07.18.46:122][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Plant_390"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.CoatHook_397"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.CoatHook2"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.CoatHook3"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.CoatHook4"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.CoatHook5"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x407"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x408"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch_1seat_410"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch_1seat2"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch_1seat3"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CoffeeTable2_417"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP53_420"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_DeskLamp2_423"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Frame_432"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Frame_2"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Frame_3"
+[2016.02.23-07.18.46:123][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight60_59"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_RoundCeilingLight2_437"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight61"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_RoundCeilingLight3"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight62"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_RoundCeilingLight4"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.teatrolley_444"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.teatrolley2_447"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP56_450"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP87_453"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP88_456"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "TriggerBox /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.TriggerBox_1"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow102_14"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame_17"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame2"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame3"
+[2016.02.23-07.18.46:124][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x409"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x410"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x411"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Curtain5"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Curtain6"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Curtain7"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Wire5"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Curtain8"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Wire6"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_TableRound2"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Chair4"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Chair5"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Chair6"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Lamp_Ceiling3"
+[2016.02.23-07.18.46:125][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Lamp_Ceiling4"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.wooden_clock2"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Mug2"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_FloorLamp2"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP89"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_RoundCeilingLight5"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving10"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving11"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving12"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving13"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving14"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP90"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP91"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP92"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP93"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP94"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP95"
+[2016.02.23-07.18.46:126][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP96"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP97"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP98"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP99"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP100"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP101"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP102"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP103"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP104"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP105"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP106"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP107"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP108"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP109"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP110"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP111"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP112"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP113"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP114"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP115"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP116"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP117"
+[2016.02.23-07.18.46:127][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP118"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP119"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP120"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP121"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP122"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving15"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP123"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP124"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP125"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP126"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP127"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP128"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP129"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving16"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Shelving17"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP130"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP131"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP132"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP133"
+[2016.02.23-07.18.46:128][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP134"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP135"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP136"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP137"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP138"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP139"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP140"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP141"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP142"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP143"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP144"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP145"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP146"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP147"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP148"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP149"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP150"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP151"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP152"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP153"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP154"
+[2016.02.23-07.18.46:129][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP155"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP156"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP157"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP158"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP159"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP160"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP161"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP162"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP163"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP164"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP165"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP166"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP167"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP168"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP169"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Statue2"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch5"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch6"
+[2016.02.23-07.18.46:130][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch7"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch8"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CoffeeTable3"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_TV2"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_DeskLamp3"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Vase_2"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Plant2"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.CoatHook6"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.CoatHook7"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.CoatHook8"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.CoatHook9"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.CoatHook10"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x412"
+[2016.02.23-07.18.46:131][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch_1seat4"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch_1seat5"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Couch_1seat6"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CoffeeTable4"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_DeskLamp4"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Frame_4"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Frame_5"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Frame_6"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight63"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight64"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "SpotLight /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SpotLight65"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.teatrolley3"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.teatrolley4"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP170"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP171"
+[2016.02.23-07.18.46:132][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow103"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame4"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame5"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame6"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x413"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "TriggerBox /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.TriggerBox2"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP172"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP173"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.BookLP174"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x414"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x415"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x416"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x417"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "TriggerBox /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.TriggerBox3"
+[2016.02.23-07.18.46:133][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow104"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame7"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame8"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame9"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw_38"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw_39"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw_40"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "TriggerBox /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw_5"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw_41"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw_42"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw_43"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw_44"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x429"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x430"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x431"
+[2016.02.23-07.18.46:134][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x432"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "TriggerBox /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.TriggerBox6"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow107"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame16"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame17"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame18"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw22"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw23"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw24"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw25"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "TriggerBox /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw26"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw27"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw28"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw29"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw30"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x434"
+[2016.02.23-07.18.46:135][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x435"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x436"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x437"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "TriggerBox /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.TriggerBox7"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow108"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame19"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame20"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame21"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw32"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw33"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw34"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw35"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "TriggerBox /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw36"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw37"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw38"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw39"
+[2016.02.23-07.18.46:136][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw40"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x439"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x440"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x441"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x442"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "TriggerBox /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.TriggerBox8"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_GlassWindow109"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame22"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame23"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame24"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw42"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw43"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw44"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw45"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "TriggerBox /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw46"
+[2016.02.23-07.18.46:137][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw47"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw48"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw49"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.dw50"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x418_137"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x419_139"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x420_142"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x421_143"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x422_148"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x423_149"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x424_150"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.Floor_400x425_151"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_TableRound3_154"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Rock_161"
+[2016.02.23-07.18.46:138][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Rock2_164"
+[2016.02.23-07.18.46:139][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_Rock3"
+[2016.02.23-07.18.46:139][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame10_175"
+[2016.02.23-07.18.46:139][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame11_176"
+[2016.02.23-07.18.46:139][518]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FirstPersonBP/Maps/UEDPIE_0_CreateMap.CreateMap:PersistentLevel.SM_CornerFrame12_177"
+[2016.02.23-07.18.46:146][518]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2016.02.23-07.18.46:146][518]LogWorld: Bringing World /Game/FirstPersonBP/UEDPIE_0_EP1.EP1 up for play (max tick rate 0) at 2016.02.23-16.18.46
+[2016.02.23-07.18.46:146][518]LogActor:Warning: GameSession /Game/FirstPersonBP/UEDPIE_0_EP1.EP1:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.18.46:146][518]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/UEDPIE_0_EP1.EP1:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.18.46:147][518]LogWorld: Bringing up level for play took: 0.003148
+[2016.02.23-07.18.46:150][518]PIE: 정보 /Game/FirstPersonBP/UEDPIE_0_EP1 에 대한 에디터에서 플레이 시작 시간: 0.979
+[2016.02.23-07.18.46:176][518]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.19.03:750][723]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.19.18:581][723]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap' with GeneratedClass '/Game/FirstPersonBP/Maps/CreateMap.CreateMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.CreateMap'
+[2016.02.23-07.19.18:613][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000023C4923D620
+[2016.02.23-07.19.26:615][967]LogSavePackage: Save=3270.784424ms
+[2016.02.23-07.19.26:615][967]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/EP19ABD63074120DB503D1B3B8870FD8BAD.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap'
+[2016.02.23-07.19.26:640][967]LogSavePackage: Total save time: 3412.612382ms
+[2016.02.23-07.19.26:640][967]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap
+[2016.02.23-07.19.26:663][967]LogFileHelpers: Saving map 'EP1' took 3.571
+[2016.02.23-07.19.27:473][967]LogSavePackage: Save=673.513550ms
+[2016.02.23-07.19.27:473][967]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/CreateMapE7C4486C40B5239DA36272A595258219.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap'
+[2016.02.23-07.19.27:476][967]LogSavePackage: Total save time: 682.005130ms
+[2016.02.23-07.19.27:476][967]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap
+[2016.02.23-07.19.27:476][967]LogFileHelpers: Saving map 'CreateMap' took 0.812
+[2016.02.23-07.19.27:642][967]LogSavePackage: Save=26.427786ms
+[2016.02.23-07.19.27:642][967]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/VolumeAndRefMapD55F1BC04E5408DE3A4D63B1C81C8B11.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/MAPLV/VolumeAndRefMap.umap'
+[2016.02.23-07.19.27:644][967]LogSavePackage: Total save time: 34.988157ms
+[2016.02.23-07.19.27:644][967]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/MAPLV/VolumeAndRefMap.umap
+[2016.02.23-07.19.27:645][967]LogFileHelpers: Saving map 'VolumeAndRefMap' took 0.167
+[2016.02.23-07.20.06:747][673]LogSavePackage: Save=3294.744629ms
+[2016.02.23-07.20.06:747][673]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/EP1FBD8A7034EABA4386C903AAA11B1E2FB.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap'
+[2016.02.23-07.20.06:768][673]LogSavePackage: Total save time: 3316.406589ms
+[2016.02.23-07.20.06:768][673]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap
+[2016.02.23-07.20.06:790][673]LogFileHelpers: Saving map 'EP1' took 3.473
+[2016.02.23-07.20.30:626][470]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.23-07.21.04:368][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock)
+[2016.02.23-07.21.33:989][840]Cmd: TRANSACTION UNDO
+[2016.02.23-07.21.33:989][840]LogEditorTransaction: Undo 액터 이동
+[2016.02.23-07.21.34:017][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시33_30.BrushComponent0) Component already registered.
+[2016.02.23-07.21.34:017][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시56.BrushComponent0) Component already registered.
+[2016.02.23-07.21.34:018][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시46.BrushComponent0) Component already registered.
+[2016.02.23-07.21.34:018][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시20.BrushComponent0) Component already registered.
+[2016.02.23-07.21.34:018][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시2.BrushComponent0) Component already registered.
+[2016.02.23-07.21.34:026][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.오른쪽계단위sub.BrushComponent0) Component already registered.
+[2016.02.23-07.21.34:027][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시94.BrushComponent0) Component already registered.
+[2016.02.23-07.21.34:028][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시113.BrushComponent0) Component already registered.
+[2016.02.23-07.21.34:029][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시77.BrushComponent0) Component already registered.
+[2016.02.23-07.21.34:029][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시64.BrushComponent0) Component already registered.
+[2016.02.23-07.21.34:029][840]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.LinearStair브러시7.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:241][754]Cmd: TRANSACTION UNDO
+[2016.02.23-07.21.42:241][754]LogEditorTransaction: Undo 바닥에 액터 스냅
+[2016.02.23-07.21.42:268][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시33_30.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:268][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시56.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:269][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시46.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:269][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시20.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:269][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시2.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:276][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.오른쪽계단위sub.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:278][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시94.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:279][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시113.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:280][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시77.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:280][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.Box브러시64.BrushComponent0) Component already registered.
+[2016.02.23-07.21.42:280][754]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.LinearStair브러시7.BrushComponent0) Component already registered.
+[2016.02.23-07.21.59:997][292]LogSavePackage: Save=3273.184326ms
+[2016.02.23-07.21.59:997][292]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/EP1EE168EB4434F2E99D86441BB1BD119C0.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap'
+[2016.02.23-07.22.00:021][292]LogSavePackage: Total save time: 3298.095085ms
+[2016.02.23-07.22.00:021][292]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/EP1.umap
+[2016.02.23-07.22.00:051][292]LogFileHelpers: Saving map 'EP1' took 3.462
+[2016.02.23-07.22.00:209][292]LogSavePackage: Save=25.672405ms
+[2016.02.23-07.22.00:209][292]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/VolumeAndRefMapD6480EEA48C70F49D7BCE496E0D6D935.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/MAPLV/VolumeAndRefMap.umap'
+[2016.02.23-07.22.00:211][292]LogSavePackage: Total save time: 29.028047ms
+[2016.02.23-07.22.00:211][292]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/MAPLV/VolumeAndRefMap.umap
+[2016.02.23-07.22.00:211][292]LogFileHelpers: Saving map 'VolumeAndRefMap' took 0.160
+[2016.02.23-07.22.01:010][292]LogSavePackage: Save=667.256897ms
+[2016.02.23-07.22.01:010][292]LogSavePackage: Moving '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Saved/CreateMapDD8784DE48CD20531CD7A3A3D6709C5A.tmp' to '../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap'
+[2016.02.23-07.22.01:013][292]LogSavePackage: Total save time: 671.532869ms
+[2016.02.23-07.22.01:013][292]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap
+[2016.02.23-07.22.01:014][292]LogFileHelpers: Saving map 'CreateMap' took 0.800
+[2016.02.23-07.22.07:702][ 91]Cmd: MAP LOAD FILE="../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.23-07.22.07:702][ 91]LightingResults: New page: 라이팅 빌드
+[2016.02.23-07.22.07:713][ 91]LoadErrors: New page: 맵 로드중: CreateMap.umap
+[2016.02.23-07.22.07:732][ 91]MapCheck: New page: 맵 체크
+[2016.02.23-07.22.07:732][ 91]LightingResults: New page: 라이팅 빌드
+[2016.02.23-07.22.07:747][ 91]LogReferenceChain: Searching referencers for EP1. This may take several minutes.
+[2016.02.23-07.22.07:858][ 91]LogReferenceChain: Generating reference graph ...
+[2016.02.23-07.22.07:862][ 91]LogReferenceChain: Level 0 has 23 nodes ...
+[2016.02.23-07.22.07:869][ 91]LogReferenceChain: Level 1 added 1039 nodes ...
+[2016.02.23-07.22.07:875][ 91]LogReferenceChain: Level 2 added 3973 nodes ...
+[2016.02.23-07.22.07:884][ 91]LogReferenceChain: Level 3 added 6047 nodes ...
+[2016.02.23-07.22.07:891][ 91]LogReferenceChain: Level 4 added 2150 nodes ...
+[2016.02.23-07.22.07:897][ 91]LogReferenceChain: Level 5 added 451 nodes ...
+[2016.02.23-07.22.07:903][ 91]LogReferenceChain: Level 6 added 233 nodes ...
+[2016.02.23-07.22.07:909][ 91]LogReferenceChain: Level 7 added 0 nodes ...
+[2016.02.23-07.22.07:909][ 91]LogReferenceChain: Generating reference chains ...
+[2016.02.23-07.22.07:909][ 91]LogReferenceChain:   
+[2016.02.23-07.22.07:909][ 91]LogReferenceChain: External Referencers:
+[2016.02.23-07.22.07:909][ 91]LogReferenceChain:   
+[2016.02.23-07.22.07:909][ 91]LogReferenceChain: (standalone) World /Game/FirstPersonBP/Maps/CreateMap.CreateMap->CurrentLevel
+[2016.02.23-07.22.20:815][ 91]LogReferenceChain:   Level /Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel->UE4Editor-Engine.dll!ULevel::AddReferencedObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\level.cpp:255]
+[2016.02.23-07.22.20:815][ 91]LogReferenceChain:     AbstractNavData /Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.AbstractNavData-Default->CachedWorld
+[2016.02.23-07.22.20:815][ 91]LogReferenceChain:       (target) World /Game/FirstPersonBP/EP1.EP1
+[2016.02.23-07.22.20:936][ 91]LogWindows:Error: Windows GetLastError: 작업을 완료했습니다. (0)
+[2016.02.23-07.22.21:704][ 91]LogCrashTracker: 
+
+
+[2016.02.23-07.22.21:708][ 91]LogCrashTracker: 
+
+
+[2016.02.23-07.22.21:709][ 91]LogWindows: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1773] 
+/Game/FirstPersonBP/EP1.EP1 still around trying to load ../../../../../../Users/Dongryong/Documents/Unreal Projects/sinkhole/Content/FirstPersonBP/Maps/CreateMap.umap
+   World /Game/FirstPersonBP/EP1.EP1 [target]
+   AbstractNavData /Game/FirstPersonBP/Maps/CreateMap.CreateMap:PersistentLevel.AbstractNavData-Default  (ObjectProperty /Script/Engine.NavigationData:CachedWorld)
+   World /Game/FirstPersonBP/Maps/CreateMap.CreateMap (standalone) (ObjectProperty /Script/Engine.World:PersistentLevel)
+
+
+
+
+
+[2016.02.23-07.22.21:838][ 91]LogExit: Executing StaticShutdownAfterError
+[2016.02.23-07.22.21:865][ 91]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.23-07.22.21:865][ 91]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.02.23-07.22.21:866][ 91]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.02.23-07.22.21:866][ 91]Log file closed, 02/23/16 16:22:21
